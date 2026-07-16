@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import { PrimaryButton } from "@/components/ui/Button";
 import { MobileNav } from "./MobileNav";
+import { HeaderSurfaceController } from "./HeaderSurfaceController";
 
 const NAV_ITEMS = [
   { key: "home", href: "/" },
@@ -22,6 +23,7 @@ export async function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-card-border">
+      <HeaderSurfaceController />
       <div className="mx-auto max-w-6xl px-6 md:px-10 h-20 flex items-center justify-between">
         <Link href="/" className="font-serif text-xl text-text">
           Inna Talianchuk

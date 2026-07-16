@@ -164,7 +164,11 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
 
   if (reducedMotion) {
     return (
-      <section aria-labelledby="hero-heading" className="bg-ink text-background">
+      <section
+        aria-labelledby="hero-heading"
+        data-header-dark
+        className="bg-ink text-background"
+      >
         <Container className="flex min-h-[80vh] flex-col justify-center py-24">
           <p className="text-xs md:text-sm tracking-[0.2em] uppercase text-champagne">
             {content.tagline}
@@ -206,6 +210,7 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
     <section
       ref={outerRef}
       aria-labelledby="hero-heading"
+      data-header-dark
       className="relative bg-ink"
       style={{ height: "520vh" }}
     >

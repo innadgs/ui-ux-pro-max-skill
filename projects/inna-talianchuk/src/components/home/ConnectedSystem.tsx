@@ -18,7 +18,8 @@ export async function ConnectedSystem() {
   const t = await getTranslations("home.connectedSystem");
 
   return (
-    <Section dark ariaLabelledby="connected-system-heading">
+    <div data-header-dark>
+      <Section dark ariaLabelledby="connected-system-heading">
       <div className="grid gap-16 lg:grid-cols-[1fr_0.8fr] lg:items-center">
         <div>
           <SectionHeader
@@ -44,6 +45,7 @@ export async function ConnectedSystem() {
 
         <ConnectedSystemVisual />
       </div>
-    </Section>
+      </Section>
+    </div>
   );
 }
