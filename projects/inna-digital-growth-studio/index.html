@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inna — Digital Growth Studio | From Complexity to Clarity</title>
+<meta name="description" content="I design intelligent business systems where people, processes and AI work as one. Strategy, marketing, projects, AI and automation — connected into a single system.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: '#0F172A',
+          secondary: '#334155',
+          accent: '#0369A1',
+          background: '#F8FAFC',
+          foreground: '#020617',
+          muted: '#E8ECF1',
+          mutedfg: '#64748B',
+          border: '#E2E8F0',
+        },
+        fontFamily: {
+          serif: ['Playfair Display', 'serif'],
+          sans: ['Inter', 'sans-serif'],
+        },
+        maxWidth: {
+          prose: '680px',
+        }
+      }
+    }
+  }
+</script>
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  html { scroll-behavior: smooth; }
+  .reveal { opacity: 0; }
+  .flow-line {
+    background: linear-gradient(to bottom, transparent, #E2E8F0 15%, #E2E8F0 85%, transparent);
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+</head>
+<body class="bg-background font-sans text-foreground antialiased">
+
+  <!-- Wordmark (not a nav — the site is a single journey) -->
+  <header class="fixed top-0 left-0 right-0 z-50 px-6 md:px-10 py-6 flex items-center justify-between pointer-events-none">
+    <a href="#home" class="pointer-events-auto font-serif text-lg tracking-wide text-primary">
+      Inna <span class="text-mutedfg font-sans text-xs align-middle ml-1 hidden sm:inline">/ Digital Growth Studio</span>
+    </a>
+    <a href="#contact" class="pointer-events-auto text-xs md:text-sm font-medium text-primary border border-border bg-white/80 backdrop-blur-md px-4 py-2 rounded-full hover:border-accent hover:text-accent transition-colors duration-200">
+      Book a Strategy Call
+    </a>
+  </header>
+
+  <!-- ============ 01. HOME ============ -->
+  <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center px-6 relative">
+    <p class="reveal text-xs md:text-sm tracking-[0.25em] uppercase text-mutedfg mb-8">Business Systems Design</p>
+
+    <h1 class="reveal font-serif text-4xl sm:text-5xl md:text-7xl leading-tight text-primary max-w-4xl">
+      From complexity<br class="hidden sm:block"> to clarity.
+    </h1>
+
+    <p class="reveal mt-8 text-base md:text-lg text-secondary max-w-xl leading-relaxed">
+      I design business systems that connect strategy, marketing, AI and operations into one efficient workflow.
+    </p>
+
+    <a href="#contact" class="reveal mt-12 inline-block bg-primary text-white text-sm md:text-base font-medium px-8 py-4 rounded-full hover:bg-accent transition-colors duration-300">
+      Book a Strategy Call
+    </a>
+
+    <div class="reveal absolute bottom-10 left-0 right-0 flex flex-col items-center gap-2 text-mutedfg">
+      <div class="flex items-center gap-3 text-[11px] tracking-widest uppercase">
+        <span>Complexity</span><span>→</span><span>Clarity</span><span>→</span><span>Systems</span><span>→</span><span>Growth</span><span>→</span><span>Freedom</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02. WHAT I DO ============ -->
+  <section id="what-i-do" class="py-32 md:py-40 px-6">
+    <div class="max-w-3xl mx-auto text-center mb-20">
+      <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">What I Do</p>
+      <h2 class="reveal font-serif text-3xl md:text-5xl text-primary leading-snug">Not a list of services.<br>A system.</h2>
+    </div>
+
+    <div class="max-w-xs mx-auto flex flex-col items-center">
+      <ol class="w-full flex flex-col items-center" id="flow-diagram">
+        <!-- items injected via script below for consistent spacing -->
+      </ol>
+    </div>
+
+    <div class="max-w-2xl mx-auto text-center mt-20">
+      <p class="reveal font-serif text-xl md:text-2xl text-primary leading-relaxed">
+        “My work is to connect every part of your business into a single system.”
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ 03. SERVICES ============ -->
+  <section id="services" class="py-32 md:py-40 px-6 bg-white border-y border-border">
+    <div class="max-w-3xl mx-auto text-center mb-20">
+      <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">Services</p>
+      <h2 class="reveal font-serif text-3xl md:text-5xl text-primary leading-snug">Five ways I bring clarity to a business.</h2>
+    </div>
+
+    <div class="max-w-4xl mx-auto flex flex-col gap-24 md:gap-28">
+
+      <!-- 1 -->
+      <div class="reveal grid md:grid-cols-[auto_1fr] gap-6 md:gap-14">
+        <div class="font-serif text-5xl md:text-6xl text-border num">01</div>
+        <div>
+          <h3 class="font-serif text-2xl md:text-3xl text-primary mb-4">Business Systems Design</h3>
+          <p class="text-sm text-mutedfg uppercase tracking-wide mb-3">What's included</p>
+          <ul class="space-y-2 text-secondary mb-6">
+            <li>· Analysis of current processes</li>
+            <li>· Identification of bottlenecks</li>
+            <li>· Design of a new operational structure</li>
+            <li>· Process map</li>
+            <li>· Implementation recommendations</li>
+          </ul>
+          <p class="text-primary font-medium">Result: A clear structure for how the company operates.</p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="reveal grid md:grid-cols-[auto_1fr] gap-6 md:gap-14">
+        <div class="font-serif text-5xl md:text-6xl text-border num">02</div>
+        <div>
+          <h3 class="font-serif text-2xl md:text-3xl text-primary mb-4">Marketing Systems</h3>
+          <p class="text-sm text-mutedfg uppercase tracking-wide mb-3">Not "setting up adverts" — but</p>
+          <ul class="space-y-2 text-secondary mb-6">
+            <li>· A marketing strategy</li>
+            <li>· Funnels</li>
+            <li>· Customer journey</li>
+            <li>· Analytics</li>
+            <li>· Advertising processes</li>
+            <li>· Channel integration</li>
+          </ul>
+          <p class="text-primary font-medium">Result: Marketing operates as a system, rather than a collection of separate campaigns.</p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="reveal grid md:grid-cols-[auto_1fr] gap-6 md:gap-14">
+        <div class="font-serif text-5xl md:text-6xl text-border num">03</div>
+        <div>
+          <h3 class="font-serif text-2xl md:text-3xl text-primary mb-4">AI &amp; Automation</h3>
+          <p class="text-sm text-mutedfg uppercase tracking-wide mb-3">Specific, not vague</p>
+          <ul class="space-y-2 text-secondary mb-6">
+            <li>· Selection of AI tools</li>
+            <li>· Automation of repetitive tasks</li>
+            <li>· AI assistants</li>
+            <li>· Workflow scenarios</li>
+            <li>· Integrations</li>
+          </ul>
+          <p class="text-primary font-medium">Result: Automation of repetitive processes where it really adds value.</p>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="reveal grid md:grid-cols-[auto_1fr] gap-6 md:gap-14">
+        <div class="font-serif text-5xl md:text-6xl text-border num">04</div>
+        <div>
+          <h3 class="font-serif text-2xl md:text-3xl text-primary mb-4">Project Management</h3>
+          <p class="text-sm text-mutedfg uppercase tracking-wide mb-3">What's included</p>
+          <ul class="space-y-2 text-secondary mb-6">
+            <li>· Project launch</li>
+            <li>· Planning</li>
+            <li>· Team coordination</li>
+            <li>· Deadline monitoring</li>
+            <li>· Process organisation</li>
+          </ul>
+          <p class="text-primary font-medium">Result: Projects become transparent and manageable.</p>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="reveal grid md:grid-cols-[auto_1fr] gap-6 md:gap-14">
+        <div class="font-serif text-5xl md:text-6xl text-border num">05</div>
+        <div>
+          <h3 class="font-serif text-2xl md:text-3xl text-primary mb-4">Digital Transformation</h3>
+          <p class="text-sm text-mutedfg uppercase tracking-wide mb-3">Where everything comes together</p>
+          <ul class="space-y-2 text-secondary mb-6">
+            <li>· Development strategy</li>
+            <li>· Processes</li>
+            <li>· AI</li>
+            <li>· Marketing</li>
+            <li>· Automation</li>
+            <li>· Scalability</li>
+          </ul>
+          <p class="text-primary font-medium">Result: A business built to scale without adding chaos.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 04. HOW I WORK ============ -->
+  <section id="how-i-work" class="py-32 md:py-40 px-6">
+    <div class="max-w-3xl mx-auto text-center mb-20">
+      <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">How I Work</p>
+      <h2 class="reveal font-serif text-3xl md:text-5xl text-primary leading-snug">Five steps. No guesswork.</h2>
+    </div>
+
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-2 md:grid-cols-5 gap-10 md:gap-6">
+      <div class="reveal text-center md:text-left">
+        <div class="font-serif text-3xl text-border mb-4 num">01</div>
+        <h3 class="font-medium text-primary mb-2">Understand</h3>
+        <p class="text-sm text-mutedfg">I study the business.</p>
+      </div>
+      <div class="reveal text-center md:text-left">
+        <div class="font-serif text-3xl text-border mb-4 num">02</div>
+        <h3 class="font-medium text-primary mb-2">Analyse</h3>
+        <p class="text-sm text-mutedfg">I identify constraints.</p>
+      </div>
+      <div class="reveal text-center md:text-left">
+        <div class="font-serif text-3xl text-border mb-4 num">03</div>
+        <h3 class="font-medium text-primary mb-2">Design</h3>
+        <p class="text-sm text-mutedfg">I design the system.</p>
+      </div>
+      <div class="reveal text-center md:text-left">
+        <div class="font-serif text-3xl text-border mb-4 num">04</div>
+        <h3 class="font-medium text-primary mb-2">Implement</h3>
+        <p class="text-sm text-mutedfg">I implement the changes.</p>
+      </div>
+      <div class="reveal text-center md:text-left">
+        <div class="font-serif text-3xl text-border mb-4 num">05</div>
+        <h3 class="font-medium text-primary mb-2">Optimise</h3>
+        <p class="text-sm text-mutedfg">I measure the results and improve the system.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05. WHY CLIENTS WORK WITH ME ============ -->
+  <section id="why-me" class="py-32 md:py-40 px-6 bg-white border-y border-border">
+    <div class="max-w-3xl mx-auto text-center mb-20">
+      <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">Why Clients Work With Me</p>
+      <h2 class="reveal font-serif text-3xl md:text-5xl text-primary leading-snug">Not reviews. Reasons.</h2>
+    </div>
+
+    <div class="max-w-4xl mx-auto grid sm:grid-cols-2 gap-x-16 gap-y-14">
+      <div class="reveal">
+        <h3 class="font-serif text-xl text-primary mb-3">Systems Thinking</h3>
+        <p class="text-secondary leading-relaxed">I view marketing, processes, AI and projects as parts of a single system.</p>
+      </div>
+      <div class="reveal">
+        <h3 class="font-serif text-xl text-primary mb-3">Practical Approach</h3>
+        <p class="text-secondary leading-relaxed">I only recommend what can be implemented in real-world work.</p>
+      </div>
+      <div class="reveal">
+        <h3 class="font-serif text-xl text-primary mb-3">Business Focus</h3>
+        <p class="text-secondary leading-relaxed">Every decision must deliver a measurable result for the business.</p>
+      </div>
+      <div class="reveal">
+        <h3 class="font-serif text-xl text-primary mb-3">Long-Term Perspective</h3>
+        <p class="text-secondary leading-relaxed">I build processes that continue to work after the project is completed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06. CASE STUDIES ============ -->
+  <section id="case-studies" class="py-32 md:py-40 px-6">
+    <div class="max-w-3xl mx-auto text-center mb-20">
+      <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">Case Studies</p>
+      <h2 class="reveal font-serif text-3xl md:text-5xl text-primary leading-snug">Not a portfolio. Stories.</h2>
+      <p class="reveal text-sm text-mutedfg mt-6">Illustrative engagement examples — client names withheld for confidentiality.</p>
+    </div>
+
+    <div class="max-w-4xl mx-auto flex flex-col gap-20">
+
+      <!-- Case 1 -->
+      <div class="reveal border-t border-border pt-10">
+        <p class="text-xs tracking-[0.2em] uppercase text-accent mb-3">D2C Skincare Brand</p>
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Challenge</p>
+            <p class="text-secondary text-sm leading-relaxed">Marketing ran on six disconnected tools. No one could say which channel actually drove revenue.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Analysis</p>
+            <p class="text-secondary text-sm leading-relaxed">Mapped the full customer journey and found the real bottleneck: reporting, not ad spend.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Solution</p>
+            <p class="text-secondary text-sm leading-relaxed">Unified analytics, rebuilt the funnel, automated weekly reporting with an AI summary layer.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Result</p>
+            <p class="text-primary text-sm font-medium leading-relaxed">Decisions made in days, not weeks — and a clear view of what to cut.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case 2 -->
+      <div class="reveal border-t border-border pt-10">
+        <p class="text-xs tracking-[0.2em] uppercase text-accent mb-3">B2B SaaS Platform</p>
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Challenge</p>
+            <p class="text-secondary text-sm leading-relaxed">Every new hire meant a new undocumented workaround. Projects slipped without anyone noticing.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Analysis</p>
+            <p class="text-secondary text-sm leading-relaxed">Found the gap wasn't talent — it was the absence of a shared operating structure.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Solution</p>
+            <p class="text-secondary text-sm leading-relaxed">Designed a project management system with clear ownership and automated status tracking.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Result</p>
+            <p class="text-primary text-sm font-medium leading-relaxed">Deadlines became predictable; onboarding time cut by more than half.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case 3 -->
+      <div class="reveal border-t border-border pt-10">
+        <p class="text-xs tracking-[0.2em] uppercase text-accent mb-3">Regional Logistics Company</p>
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Challenge</p>
+            <p class="text-secondary text-sm leading-relaxed">Leadership wanted "more AI" but couldn't name a single process worth automating.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Analysis</p>
+            <p class="text-secondary text-sm leading-relaxed">Audited daily operations and found three repetitive, high-volume manual tasks.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Solution</p>
+            <p class="text-secondary text-sm leading-relaxed">Automated those three tasks only — no platform overhaul, no new headcount.</p>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-wide text-mutedfg mb-2">Result</p>
+            <p class="text-primary text-sm font-medium leading-relaxed">Twelve hours a week returned to the team, with zero added complexity.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 07. ABOUT ============ -->
+  <section id="about" class="py-32 md:py-40 px-6 bg-white border-y border-border">
+    <div class="max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-[220px_1fr] gap-12 md:gap-16 items-start">
+        <div class="reveal mx-auto md:mx-0">
+          <div class="w-40 h-40 md:w-full md:h-auto md:aspect-square rounded-full bg-muted border border-border flex items-center justify-center">
+            <span class="font-serif text-4xl text-primary">I</span>
+          </div>
+        </div>
+        <div>
+          <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">About</p>
+          <h2 class="reveal font-serif text-3xl md:text-4xl text-primary mb-8 leading-snug">
+            I don't start by asking which AI to use. I start by asking how your company should be operating in three years.
+          </h2>
+          <div class="reveal space-y-5 text-secondary leading-relaxed max-w-prose">
+            <p>I've spent years watching businesses buy more tools without becoming any less chaotic. The pattern is always the same: complexity keeps arriving, and no one is responsible for making it fit together.</p>
+            <p>That's the work I do. Not another platform. Not another campaign. A system — built around your goals and your people, not around whichever technology happens to be trending.</p>
+          </div>
+
+          <div class="reveal grid grid-cols-3 gap-6 mt-12 max-w-md">
+            <div>
+              <p class="font-serif text-3xl text-primary num">8+</p>
+              <p class="text-xs text-mutedfg mt-1">Years in strategy &amp; ops</p>
+            </div>
+            <div>
+              <p class="font-serif text-3xl text-primary num">40+</p>
+              <p class="text-xs text-mutedfg mt-1">Systems designed</p>
+            </div>
+            <div>
+              <p class="font-serif text-3xl text-primary num">6</p>
+              <p class="text-xs text-mutedfg mt-1">Industries served</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="mt-24 grid md:grid-cols-5 gap-10">
+        <div class="reveal">
+          <h3 class="text-xs tracking-[0.2em] uppercase text-accent mb-4">Business</h3>
+          <ul class="space-y-2 text-sm text-secondary">
+            <li>Business Process Analysis</li>
+            <li>Business Systems Design</li>
+            <li>Digital Transformation</li>
+            <li>Growth Strategy</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3 class="text-xs tracking-[0.2em] uppercase text-accent mb-4">Marketing</h3>
+          <ul class="space-y-2 text-sm text-secondary">
+            <li>Marketing Strategy</li>
+            <li>Customer Journey</li>
+            <li>Performance Marketing</li>
+            <li>Marketing Analytics</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3 class="text-xs tracking-[0.2em] uppercase text-accent mb-4">Project Management</h3>
+          <ul class="space-y-2 text-sm text-secondary">
+            <li>Project Planning</li>
+            <li>Agile Project Management</li>
+            <li>Cross-functional Coordination</li>
+            <li>Process Optimisation</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3 class="text-xs tracking-[0.2em] uppercase text-accent mb-4">AI &amp; Automation</h3>
+          <ul class="space-y-2 text-sm text-secondary">
+            <li>AI Workflow Design</li>
+            <li>Business Automation</li>
+            <li>AI Tool Integration</li>
+            <li>Prompt Engineering</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3 class="text-xs tracking-[0.2em] uppercase text-accent mb-4">Analytics</h3>
+          <ul class="space-y-2 text-sm text-secondary">
+            <li>KPI Frameworks</li>
+            <li>Marketing Analytics</li>
+            <li>Reporting</li>
+            <li>Data-driven Decision Making</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <div class="reveal mt-20 pt-10 border-t border-border flex flex-wrap gap-x-10 gap-y-3 text-sm text-mutedfg">
+        <span>Certificates &amp; credentials on request</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08. INSIGHTS ============ -->
+  <section id="insights" class="py-32 md:py-40 px-6">
+    <div class="max-w-3xl mx-auto text-center mb-14">
+      <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-4">Insights</p>
+      <h2 class="reveal font-serif text-3xl md:text-5xl text-primary leading-snug">Notes on AI, systems and growth.</h2>
+    </div>
+
+    <div class="reveal max-w-3xl mx-auto flex flex-wrap justify-center gap-3 mb-16">
+      <span class="text-xs px-4 py-2 rounded-full border border-border text-secondary">AI</span>
+      <span class="text-xs px-4 py-2 rounded-full border border-border text-secondary">Marketing</span>
+      <span class="text-xs px-4 py-2 rounded-full border border-border text-secondary">Automation</span>
+      <span class="text-xs px-4 py-2 rounded-full border border-border text-secondary">Strategy</span>
+      <span class="text-xs px-4 py-2 rounded-full border border-border text-secondary">Project Management</span>
+      <span class="text-xs px-4 py-2 rounded-full border border-border text-secondary">Business Systems</span>
+    </div>
+
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <a href="#" class="reveal block border border-border rounded-2xl p-6 bg-white hover:border-accent transition-colors duration-200">
+        <p class="text-xs uppercase tracking-wide text-accent mb-3">AI</p>
+        <h3 class="font-serif text-lg text-primary mb-2 leading-snug">Why "adding AI" isn't a strategy</h3>
+        <p class="text-sm text-mutedfg leading-relaxed">The tool matters less than the process it plugs into.</p>
+      </a>
+      <a href="#" class="reveal block border border-border rounded-2xl p-6 bg-white hover:border-accent transition-colors duration-200">
+        <p class="text-xs uppercase tracking-wide text-accent mb-3">Business Systems</p>
+        <h3 class="font-serif text-lg text-primary mb-2 leading-snug">The real cost of disconnected tools</h3>
+        <p class="text-sm text-mutedfg leading-relaxed">Every extra platform is a decision someone still has to make manually.</p>
+      </a>
+      <a href="#" class="reveal block border border-border rounded-2xl p-6 bg-white hover:border-accent transition-colors duration-200">
+        <p class="text-xs uppercase tracking-wide text-accent mb-3">Automation</p>
+        <h3 class="font-serif text-lg text-primary mb-2 leading-snug">Automate the boring 20%, not everything</h3>
+        <p class="text-sm text-mutedfg leading-relaxed">Full automation is a myth. Targeted automation is a result.</p>
+      </a>
+      <a href="#" class="reveal block border border-border rounded-2xl p-6 bg-white hover:border-accent transition-colors duration-200">
+        <p class="text-xs uppercase tracking-wide text-accent mb-3">Strategy</p>
+        <h3 class="font-serif text-lg text-primary mb-2 leading-snug">Start with the org chart, not the ad account</h3>
+        <p class="text-sm text-mutedfg leading-relaxed">Most growth problems are structural before they're creative.</p>
+      </a>
+      <a href="#" class="reveal block border border-border rounded-2xl p-6 bg-white hover:border-accent transition-colors duration-200">
+        <p class="text-xs uppercase tracking-wide text-accent mb-3">Project Management</p>
+        <h3 class="font-serif text-lg text-primary mb-2 leading-snug">Deadlines slip when ownership is unclear</h3>
+        <p class="text-sm text-mutedfg leading-relaxed">Most delays trace back to a decision nobody was assigned to make.</p>
+      </a>
+      <a href="#" class="reveal block border border-border rounded-2xl p-6 bg-white hover:border-accent transition-colors duration-200">
+        <p class="text-xs uppercase tracking-wide text-accent mb-3">Marketing</p>
+        <h3 class="font-serif text-lg text-primary mb-2 leading-snug">Predictable marketing beats clever marketing</h3>
+        <p class="text-sm text-mutedfg leading-relaxed">A funnel you understand outperforms a campaign you got lucky with.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ 09. CONTACT ============ -->
+  <section id="contact" class="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 py-32">
+    <p class="reveal text-xs tracking-[0.25em] uppercase text-mutedfg mb-8">Contact</p>
+    <h2 class="reveal font-serif text-3xl md:text-5xl text-primary max-w-2xl leading-snug mb-10">
+      Let's build a business that works with clarity.
+    </h2>
+    <a href="mailto:hello@innadigital.studio" class="reveal text-accent text-lg mb-10 hover:underline">hello@innadigital.studio</a>
+    <a href="#home" class="reveal inline-block bg-primary text-white text-sm md:text-base font-medium px-8 py-4 rounded-full hover:bg-accent transition-colors duration-300">
+      Book a Strategy Call
+    </a>
+  </section>
+
+  <footer class="px-6 py-10 border-t border-border text-center">
+    <p class="text-xs text-mutedfg">© <span id="year"></span> Inna — Digital Growth Studio. Complexity is inevitable. Chaos is optional.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Build the "What I Do" system flow diagram
+    (function () {
+      const steps = ['Business Goals', 'Strategy', 'Marketing', 'Projects', 'AI', 'Automation', 'Analytics', 'Growth'];
+      const list = document.getElementById('flow-diagram');
+      steps.forEach((step, i) => {
+        const li = document.createElement('li');
+        li.className = 'reveal flex flex-col items-center';
+        li.innerHTML = `
+          <span class="px-6 py-3 rounded-full border border-border bg-white text-primary text-sm font-medium">${step}</span>
+          ${i < steps.length - 1 ? '<span class="flow-line w-px h-8"></span>' : ''}
+        `;
+        list.appendChild(li);
+      });
+    })();
+
+    // Scroll-triggered reveals (subtle fade, per ui-ux-pro-max motion guidance)
+    gsap.registerPlugin(ScrollTrigger);
+
+    document.querySelectorAll('.reveal').forEach((el) => {
+      gsap.fromTo(el, { opacity: 0, y: 12 }, {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        ease: 'power1.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 90%',
+          toggleActions: 'play none none reverse'
+        }
+      });
+    });
+  </script>
+</body>
+</html>
