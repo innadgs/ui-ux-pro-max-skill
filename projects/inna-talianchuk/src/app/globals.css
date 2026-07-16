@@ -12,6 +12,10 @@
   --color-glass-dark: rgba(255, 255, 255, 0.08);
   --color-card-border: rgba(30, 36, 34, 0.12);
   --color-card-border-dark: rgba(245, 241, 232, 0.14);
+  --color-ink: #0f1311;
+  --color-ink-elevated: #171c19;
+  --color-champagne: #c2a15f;
+  --color-champagne-soft: rgba(194, 161, 95, 0.35);
   --shadow-soft: 0 20px 60px rgba(30, 36, 34, 0.06);
   --shadow-soft-dark: 0 20px 60px rgba(0, 0, 0, 0.28);
 }
@@ -28,6 +32,10 @@
   --color-glass-dark: var(--color-glass-dark);
   --color-card-border: var(--color-card-border);
   --color-card-border-dark: var(--color-card-border-dark);
+  --color-ink: var(--color-ink);
+  --color-ink-elevated: var(--color-ink-elevated);
+  --color-champagne: var(--color-champagne);
+  --color-champagne-soft: var(--color-champagne-soft);
 
   --font-serif: var(--font-cormorant), Georgia, serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;

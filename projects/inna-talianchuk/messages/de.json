@@ -812,6 +812,32 @@
     }
   },
   "home": {
+    "chaosHero": {
+      "tagline": "Komplexität ist unvermeidlich. Chaos ist optional.",
+      "scrollHint": "Scrollen",
+      "chapters": [
+        {
+          "title": "Komplexität",
+          "text": "Moderne Unternehmen werden jeden Tag komplexer. KI, Automatisierung, Dutzende Dienste, Daten. Sie schaffen Chancen – aber für sich allein machen sie ein Unternehmen komplexer, nicht effizienter."
+        },
+        {
+          "title": "Klarheit",
+          "text": "Meine Arbeit besteht nicht darin, neue Werkzeuge hinzuzufügen. Meine Arbeit ist ein System, in dem alles zusammenwirkt."
+        },
+        {
+          "title": "Systeme",
+          "text": "Strategie, Marketing, KI, Abläufe. Verbunden in einem Workflow. Jeder Teil verstärkt die anderen."
+        },
+        {
+          "title": "Wachstum",
+          "text": "Wenn das System funktioniert, wächst das Unternehmen. Planbar. Nachhaltig. Ohne ständiges Feuerlöschen."
+        },
+        {
+          "title": "Freiheit",
+          "text": "Und Sie gewinnen das Wichtigste: die Freiheit, sich auf das zu konzentrieren, was Sie am besten können."
+        }
+      ]
+    },
     "hero": {
       "eyebrow": "Digital Systems Strategist & AI Business Orchestrator",
       "headline": "Von Komplexität zu Klarheit.",

@@ -812,6 +812,32 @@
     }
   },
   "home": {
+    "chaosHero": {
+      "tagline": "Complexity is inevitable. Chaos is optional.",
+      "scrollHint": "Scroll",
+      "chapters": [
+        {
+          "title": "Complexity",
+          "text": "Modern business grows more complex every day. AI, automation, dozens of services, data. They create opportunities — but on their own they make business more complex, not more efficient."
+        },
+        {
+          "title": "Clarity",
+          "text": "My work is not to add new tools. My work is to create a system where everything works together."
+        },
+        {
+          "title": "Systems",
+          "text": "Strategy, marketing, AI, operations. Connected into one workflow. Each part reinforcing the others."
+        },
+        {
+          "title": "Growth",
+          "text": "When the system works, the business grows. Predictably. Sustainably. Without constant firefighting."
+        },
+        {
+          "title": "Freedom",
+          "text": "And you get the one thing that matters most: freedom to focus on what you do best."
+        }
+      ]
+    },
     "hero": {
       "eyebrow": "Digital Systems Strategist & AI Business Orchestrator",
       "headline": "From complexity to clarity.",

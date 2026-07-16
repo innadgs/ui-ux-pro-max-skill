@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
-import { Hero } from "@/components/home/Hero";
+import { ChaosHero } from "@/components/home/ChaosHero";
 import { BusinessProblem } from "@/components/home/BusinessProblem";
 import { ConnectedSystem } from "@/components/home/ConnectedSystem";
 import { ServicesOverview } from "@/components/home/ServicesOverview";
@@ -33,7 +33,7 @@ export default async function HomePage({ params }: { params: Promise<Params> }) 
 
   return (
     <>
-      <Hero />
+      <ChaosHero />
       <BusinessProblem />
       <ConnectedSystem />
       <ServicesOverview />
