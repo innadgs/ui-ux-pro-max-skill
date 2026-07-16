@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "siteName": "Inna Talianchuk",
+    "positioning": "Digital Systems Strategist & AI Business Orchestrator"
+  },
+  "common": {
+    "skipToContent": "Zum Inhalt springen",
+    "nav": {
+      "home": "Startseite",
+      "services": "Leistungen",
+      "approach": "Ansatz",
+      "experience": "Erfahrung",
+      "insights": "Insights",
+      "contact": "Kontakt",
+      "openMenu": "Menü öffnen",
+      "closeMenu": "Menü schließen"
+    },
+    "cta": {
+      "primary": "Projekt besprechen",
+      "secondary": "Leistungen ansehen"
+    },
+    "languageSwitcher": {
+      "label": "Sprache wählen",
+      "current": "Aktuelle Sprache: {language}"
+    },
+    "footer": {
+      "positioning": "Ich verbinde Strategie, Marketing, Projekte und KI zu einem klaren System.",
+      "pagesHeading": "Seiten",
+      "servicesHeading": "Leistungen",
+      "legalHeading": "Rechtliches",
+      "languageHeading": "Sprache",
+      "about": "Über mich",
+      "caseStudies": "Referenzen",
+      "impressum": "Impressum",
+      "privacy": "Datenschutz",
+      "accessibility": "Barrierefreiheit",
+      "emailLabel": "E-Mail schreiben",
+      "copyright": "© {year} Inna Talianchuk. Alle Rechte vorbehalten."
+    },
+    "readMore": "Mehr erfahren",
+    "learnMore": "Details ansehen",
+    "result": "Ergebnis",
+    "comingSoon": {
+      "title": "Diese Seite entsteht gerade",
+      "body": "Diese Seite wird derzeit ausgebaut. Für Fragen zu diesem Bereich können Sie mich jederzeit direkt kontaktieren."
+    }
+  },
+  "services": {
+    "businessSystemsDesign": {
+      "name": "Business-Systeme-Design",
+      "short": "Analyse, Engpässe, eine neue operative Struktur und eine klare Prozesslandkarte für Ihr Unternehmen."
+    },
+    "marketingSystems": {
+      "name": "Marketing-Systeme",
+      "short": "Strategie, Funnels, Customer Journey und Analytics als ein zusammenhängendes System statt einzelner Kampagnen."
+    },
+    "aiAutomation": {
+      "name": "KI & Automatisierung",
+      "short": "Auswahl passender KI-Werkzeuge und Automatisierung genau dort, wo sie echten Mehrwert schafft."
+    },
+    "projectManagementOperations": {
+      "name": "Projektmanagement & Operations",
+      "short": "Planung, Teamkoordination und Fristenkontrolle, damit Projekte transparent und steuerbar bleiben."
+    },
+    "premiumWebsitesDigitalExperience": {
+      "name": "Premium-Websites & Digital Experience",
+      "short": "Strategie, UX, Design, Animation, Mehrsprachigkeit, SEO/GEO und Barrierefreiheit in einem Projekt."
+    }
+  },
+  "pages": {
+    "services": { "title": "Leistungen", "intro": "Fünf Bausteine, ein System." },
+    "approach": { "title": "Ansatz", "intro": "Verstehen, analysieren, gestalten, umsetzen, optimieren." },
+    "about": { "title": "Über mich", "intro": "Warum ich so arbeite, wie ich arbeite." },
+    "caseStudies": { "title": "Referenzen", "intro": "Ausgewählte Projekte und Ergebnisse." },
+    "insights": { "title": "Insights", "intro": "Notizen zu Systemen, KI und Wachstum." },
+    "contact": { "title": "Kontakt", "intro": "Lassen Sie uns über Ihr Projekt sprechen." },
+    "impressum": { "title": "Impressum", "intro": "Anbieterkennzeichnung." },
+    "privacy": { "title": "Datenschutz", "intro": "Informationen zum Umgang mit Ihren Daten." },
+    "accessibility": { "title": "Barrierefreiheit", "intro": "Unsere Erklärung zur Barrierefreiheit dieser Website." }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Digital Systems Strategist & AI Business Orchestrator",
+      "headline": "Von Komplexität zu Klarheit.",
+      "supporting": "Ich entwickle Business-Systeme, in denen Strategie, Marketing, Projekte, KI, Automatisierung und Analytics als ein klarer Prozess zusammenarbeiten.",
+      "primaryCta": "Projekt besprechen",
+      "secondaryCta": "Leistungen ansehen",
+      "microText": "Strategie. Marketing. KI. Automatisierung. Projektmanagement. Premium-Websites.",
+      "portraitAlt": "Inna Talianchuk, Digital Systems Strategist & AI Business Orchestrator",
+      "panels": {
+        "ai": "KI",
+        "analytics": "Analytics",
+        "crm": "CRM",
+        "automation": "Automatisierung",
+        "projectManagement": "Projektmanagement",
+        "marketing": "Marketing",
+        "businessStrategy": "Business-Strategie"
+      }
+    },
+    "businessProblem": {
+      "eyebrow": "Der Kern des Problems",
+      "headline": "Wachstum stockt nicht, weil Unternehmen zu wenige Werkzeuge haben.",
+      "headlineSecondLine": "Es stockt, weil diese Werkzeuge nicht als ein System zusammenarbeiten.",
+      "supporting": "Eine Website hier, Werbeanzeigen dort, ein CRM, das niemand pflegt, Tabellen, die nicht mehr aktuell sind, einzelne KI-Tools, verstreute Social-Media-Kanäle — und Prozesse, die nirgendwo zusammenlaufen.",
+      "closing": "Das ist kein Werkzeug-Problem. Das ist ein System-Problem.",
+      "fragments": {
+        "website": "Website",
+        "ads": "Anzeigen",
+        "crm": "CRM",
+        "spreadsheets": "Tabellen",
+        "aiTools": "KI-Tools",
+        "social": "Social Media",
+        "processes": "Prozesse"
+      }
+    },
+    "connectedSystem": {
+      "eyebrow": "Das System",
+      "headline": "Ich verbinde Strategie, Prozesse und Technologie zu einem funktionierenden System.",
+      "capabilities": {
+        "strategy": { "title": "Strategie", "description": "Klare Ziele und eine Roadmap, die zur Umsetzung passt." },
+        "marketing": { "title": "Marketing", "description": "Kanäle, Botschaften und Daten, die zusammen wirken." },
+        "aiAutomation": { "title": "KI & Automatisierung", "description": "KI dort, wo sie wirklich Zeit und Klarheit schafft." },
+        "projectManagement": { "title": "Projektmanagement", "description": "Verantwortlichkeiten, Fristen und Fortschritt im Blick." },
+        "websites": { "title": "Websites & Digital Experience", "description": "Eine digitale Erfahrung, die Vertrauen aufbaut und Ergebnisse erklärt." }
+      }
+    },
+    "servicesOverview": {
+      "eyebrow": "Leistungen",
+      "headline": "Fünf Bausteine, ein System.",
+      "results": {
+        "businessSystemsDesign": "Eine klare Struktur dafür, wie das Unternehmen arbeitet.",
+        "marketingSystems": "Marketing funktioniert als System statt als Aneinanderreihung einzelner Kampagnen.",
+        "aiAutomation": "Automatisierung wiederkehrender Prozesse genau dort, wo sie wirklich etwas bringt.",
+        "projectManagementOperations": "Projekte werden transparent und steuerbar.",
+        "premiumWebsitesDigitalExperience": "Eine Website, die Klarheit schafft und Entscheidungen unterstützt."
+      }
+    },
+    "premiumWebsites": {
+      "eyebrow": "Premium-Websites & Digital Experience",
+      "headline": "Eine Website sollte nicht nur gut aussehen.",
+      "headlineSecondLine": "Sie sollte Werte erklären und Entscheidungen unterstützen.",
+      "includesHeading": "Enthalten ist",
+      "includes": [
+        "Website-Strategie",
+        "Informationsarchitektur",
+        "UX-Logik",
+        "Content",
+        "Design-System",
+        "Animation",
+        "Mehrsprachige Struktur",
+        "SEO & GEO",
+        "Barrierefreiheit",
+        "KI-gestützte Entwicklung",
+        "Launch-Vorbereitung"
+      ],
+      "cta": "Premium-Websites & Digital Experience ansehen"
+    },
+    "approachPreview": {
+      "eyebrow": "Ansatz",
+      "headline": "Fünf Schritte. Kein Rätselraten.",
+      "cta": "Den gesamten Ansatz ansehen",
+      "steps": {
+        "understand": { "title": "Verstehen", "description": "Ich verschaffe mir ein klares Bild vom Unternehmen." },
+        "analyze": { "title": "Analysieren", "description": "Ich identifiziere die eigentlichen Engpässe." },
+        "design": { "title": "Gestalten", "description": "Ich entwerfe das System." },
+        "implement": { "title": "Umsetzen", "description": "Ich setze die Veränderungen um." },
+        "optimize": { "title": "Optimieren", "description": "Ich messe Ergebnisse und verbessere das System." }
+      }
+    },
+    "experience": {
+      "eyebrow": "Erfahrung & Kompetenz",
+      "headline": "Fundiert in fünf Bereichen, verbunden zu einem System.",
+      "areas": {
+        "businessStrategy": { "title": "Business & Strategie", "description": "Geschäftsprozesse verstehen, Engpässe erkennen, Strukturen entwerfen, die tragen." },
+        "marketing": { "title": "Marketing", "description": "Strategie, Customer Journey und Performance als ein zusammenhängendes Bild." },
+        "projectManagement": { "title": "Projektmanagement", "description": "Planung, Koordination und Fristen, die eingehalten werden." },
+        "aiAutomation": { "title": "KI & Automatisierung", "description": "Den Unterschied erkennen zwischen echtem Mehrwert und reinem Trend." },
+        "websites": { "title": "Websites & Digital Experience", "description": "Design, Technik und Inhalt, die gemeinsam überzeugen." }
+      }
+    },
+    "selectedWork": {
+      "eyebrow": "Referenzen",
+      "headline": "Ausgewählte Projekte",
+      "statusLabel": "Fallstudie in Vorbereitung",
+      "statusNote": "Diese Referenz wird derzeit aufbereitet.",
+      "cta": "Alle Referenzen ansehen"
+    },
+    "insights": {
+      "eyebrow": "Insights",
+      "headline": "Notizen zu Systemen, KI und Wachstum",
+      "cta": "Alle Insights ansehen",
+      "items": [
+        { "category": "Business-Systeme", "title": "Warum „mehr Tools“ selten das Problem löst", "excerpt": "Zusätzliche Software ersetzt kein fehlendes System." },
+        { "category": "KI & Automatisierung", "title": "KI ist kein Ersatz für ein fehlendes System", "excerpt": "Automatisierung verstärkt, was bereits funktioniert — und auch, was nicht funktioniert." },
+        { "category": "Projektmanagement", "title": "Warum Fristen reißen, wenn Verantwortung unklar ist", "excerpt": "Die meisten Verzögerungen beginnen bei einer Entscheidung, die niemand treffen sollte." }
+      ]
+    },
+    "finalCta": {
+      "headline": "Bereit, aus Komplexität ein funktionierendes System zu machen?",
+      "primaryCta": "Projekt besprechen",
+      "secondaryCta": "Leistungen ansehen"
+    }
+  }
+}

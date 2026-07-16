@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "siteName": "Inna Talianchuk",
+    "positioning": "Digital Systems Strategist & AI Business Orchestrator"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "approach": "Approach",
+      "experience": "Experience",
+      "insights": "Insights",
+      "contact": "Contact",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu"
+    },
+    "cta": {
+      "primary": "Book a strategy call",
+      "secondary": "Explore services"
+    },
+    "languageSwitcher": {
+      "label": "Choose language",
+      "current": "Current language: {language}"
+    },
+    "footer": {
+      "positioning": "I connect strategy, marketing, projects and AI into one clear system.",
+      "pagesHeading": "Pages",
+      "servicesHeading": "Services",
+      "legalHeading": "Legal",
+      "languageHeading": "Language",
+      "about": "About",
+      "caseStudies": "Case Studies",
+      "impressum": "Imprint",
+      "privacy": "Privacy",
+      "accessibility": "Accessibility",
+      "emailLabel": "Send an email",
+      "copyright": "© {year} Inna Talianchuk. All rights reserved."
+    },
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "result": "Result",
+    "comingSoon": {
+      "title": "This page is being built",
+      "body": "This page is currently in progress. Feel free to reach out directly with any questions about this area."
+    }
+  },
+  "services": {
+    "businessSystemsDesign": {
+      "name": "Business Systems Design",
+      "short": "Analysis, bottlenecks, a new operating structure and a clear process map for your business."
+    },
+    "marketingSystems": {
+      "name": "Marketing Systems",
+      "short": "Strategy, funnels, customer journey and analytics working as one system instead of separate campaigns."
+    },
+    "aiAutomation": {
+      "name": "AI & Automation",
+      "short": "Selecting the right AI tools and automating exactly where it creates real value."
+    },
+    "projectManagementOperations": {
+      "name": "Project Management & Operations",
+      "short": "Planning, team coordination and deadline tracking so projects stay transparent and manageable."
+    },
+    "premiumWebsitesDigitalExperience": {
+      "name": "Premium Websites & Digital Experience",
+      "short": "Strategy, UX, design, animation, multilingual structure, SEO/GEO and accessibility in one project."
+    }
+  },
+  "pages": {
+    "services": { "title": "Services", "intro": "Five building blocks, one system." },
+    "approach": { "title": "Approach", "intro": "Understand, analyse, design, implement, optimise." },
+    "about": { "title": "About", "intro": "Why I work the way I work." },
+    "caseStudies": { "title": "Case Studies", "intro": "Selected projects and outcomes." },
+    "insights": { "title": "Insights", "intro": "Notes on systems, AI and growth." },
+    "contact": { "title": "Contact", "intro": "Let's talk about your project." },
+    "impressum": { "title": "Imprint", "intro": "Legal provider information." },
+    "privacy": { "title": "Privacy", "intro": "Information on how your data is handled." },
+    "accessibility": { "title": "Accessibility", "intro": "Our accessibility statement for this website." }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Digital Systems Strategist & AI Business Orchestrator",
+      "headline": "From complexity to clarity.",
+      "supporting": "I design business systems where strategy, marketing, projects, AI, automation and analytics work as one clear process.",
+      "primaryCta": "Book a strategy call",
+      "secondaryCta": "Explore services",
+      "microText": "Strategy. Marketing. AI. Automation. Project Management. Premium Websites.",
+      "portraitAlt": "Inna Talianchuk, Digital Systems Strategist & AI Business Orchestrator",
+      "panels": {
+        "ai": "AI",
+        "analytics": "Analytics",
+        "crm": "CRM",
+        "automation": "Automation",
+        "projectManagement": "Project Management",
+        "marketing": "Marketing",
+        "businessStrategy": "Business Strategy"
+      }
+    },
+    "businessProblem": {
+      "eyebrow": "The real problem",
+      "headline": "Growth doesn't stop because businesses lack tools.",
+      "headlineSecondLine": "It stops because the tools don't work as one system.",
+      "supporting": "A website here, ads there, a CRM nobody maintains, spreadsheets that are already outdated, isolated AI tools, scattered social channels — and processes that never come together.",
+      "closing": "That's not a tool problem. That's a system problem.",
+      "fragments": {
+        "website": "Website",
+        "ads": "Ads",
+        "crm": "CRM",
+        "spreadsheets": "Spreadsheets",
+        "aiTools": "AI Tools",
+        "social": "Social",
+        "processes": "Processes"
+      }
+    },
+    "connectedSystem": {
+      "eyebrow": "The system",
+      "headline": "I connect strategy, processes and technology into one working system.",
+      "capabilities": {
+        "strategy": { "title": "Strategy", "description": "Clear goals and a roadmap built for execution." },
+        "marketing": { "title": "Marketing", "description": "Channels, messaging and data working together." },
+        "aiAutomation": { "title": "AI & Automation", "description": "AI exactly where it creates real time and clarity." },
+        "projectManagement": { "title": "Project Management", "description": "Ownership, deadlines and progress always in view." },
+        "websites": { "title": "Websites & Digital Experience", "description": "A digital experience that builds trust and explains value." }
+      }
+    },
+    "servicesOverview": {
+      "eyebrow": "Services",
+      "headline": "Five building blocks, one system.",
+      "results": {
+        "businessSystemsDesign": "A clear structure for how the business operates.",
+        "marketingSystems": "Marketing works as a system, not a series of separate campaigns.",
+        "aiAutomation": "Repetitive processes automated exactly where it truly helps.",
+        "projectManagementOperations": "Projects become transparent and manageable.",
+        "premiumWebsitesDigitalExperience": "A website that creates clarity and supports decisions."
+      }
+    },
+    "premiumWebsites": {
+      "eyebrow": "Premium Websites & Digital Experience",
+      "headline": "A website should not only look good.",
+      "headlineSecondLine": "It should explain value and support decisions.",
+      "includesHeading": "What's included",
+      "includes": [
+        "Website strategy",
+        "Information architecture",
+        "UX logic",
+        "Content",
+        "Design system",
+        "Animation",
+        "Multilingual structure",
+        "SEO & GEO",
+        "Accessibility",
+        "AI-assisted development",
+        "Launch preparation"
+      ],
+      "cta": "Explore Premium Websites & Digital Experience"
+    },
+    "approachPreview": {
+      "eyebrow": "Approach",
+      "headline": "Five steps. No guesswork.",
+      "cta": "See the full approach",
+      "steps": {
+        "understand": { "title": "Understand", "description": "I get a clear picture of the business." },
+        "analyze": { "title": "Analyze", "description": "I identify the real bottlenecks." },
+        "design": { "title": "Design", "description": "I design the system." },
+        "implement": { "title": "Implement", "description": "I put the changes into practice." },
+        "optimize": { "title": "Optimize", "description": "I measure results and improve the system." }
+      }
+    },
+    "experience": {
+      "eyebrow": "Experience & Competence",
+      "headline": "Grounded in five areas, connected as one system.",
+      "areas": {
+        "businessStrategy": { "title": "Business & Strategy", "description": "Understanding business processes, spotting bottlenecks, designing structures that hold." },
+        "marketing": { "title": "Marketing", "description": "Strategy, customer journey and performance as one coherent picture." },
+        "projectManagement": { "title": "Project Management", "description": "Planning, coordination and deadlines that are actually kept." },
+        "aiAutomation": { "title": "AI & Automation", "description": "Telling the difference between real value and pure trend." },
+        "websites": { "title": "Websites & Digital Experience", "description": "Design, technology and content that convince together." }
+      }
+    },
+    "selectedWork": {
+      "eyebrow": "Case Studies",
+      "headline": "Selected Work",
+      "statusLabel": "Case study in preparation",
+      "statusNote": "This case study is currently being prepared.",
+      "cta": "View all case studies"
+    },
+    "insights": {
+      "eyebrow": "Insights",
+      "headline": "Notes on systems, AI and growth",
+      "cta": "View all insights",
+      "items": [
+        { "category": "Business Systems", "title": "Why \"more tools\" rarely solves the problem", "excerpt": "Extra software doesn't replace a missing system." },
+        { "category": "AI & Automation", "title": "AI is not a substitute for a missing system", "excerpt": "Automation amplifies what already works — and what doesn't." },
+        { "category": "Project Management", "title": "Why deadlines slip when ownership is unclear", "excerpt": "Most delays start with a decision nobody was assigned to make." }
+      ]
+    },
+    "finalCta": {
+      "headline": "Ready to turn complexity into a working system?",
+      "primaryCta": "Book a strategy call",
+      "secondaryCta": "Explore services"
+    }
+  }
+}

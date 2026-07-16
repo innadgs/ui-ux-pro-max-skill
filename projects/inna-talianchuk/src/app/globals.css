@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #f5f1e8;
+  --color-background-secondary: #ece6d8;
+  --color-text: #1e2422;
+  --color-text-secondary: #5f655e;
+  --color-accent: #6f7a5a;
+  --color-accent-text: #5a6349;
+  --color-dark-section: #1b201e;
+  --color-glass-light: rgba(255, 255, 255, 0.42);
+  --color-glass-dark: rgba(255, 255, 255, 0.08);
+  --color-card-border: rgba(30, 36, 34, 0.12);
+  --color-card-border-dark: rgba(245, 241, 232, 0.14);
+  --shadow-soft: 0 20px 60px rgba(30, 36, 34, 0.06);
+  --shadow-soft-dark: 0 20px 60px rgba(0, 0, 0, 0.28);
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-background-secondary: var(--color-background-secondary);
+  --color-text: var(--color-text);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-accent: var(--color-accent);
+  --color-accent-text: var(--color-accent-text);
+  --color-dark-section: var(--color-dark-section);
+  --color-glass-light: var(--color-glass-light);
+  --color-glass-dark: var(--color-glass-dark);
+  --color-card-border: var(--color-card-border);
+  --color-card-border-dark: var(--color-card-border-dark);
+
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  --shadow-soft: var(--shadow-soft);
+  --shadow-soft-dark: var(--shadow-soft-dark);
+
+  --radius-card: 1.25rem;
+  --radius-pill: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+/* Visible, high-contrast focus ring for all interactive elements */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  background: var(--color-text);
+  color: var(--color-background);
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus-visible {
+  top: 1rem;
+}
