@@ -67,6 +67,186 @@
       "short": "Strategy, UX, design, animation, multilingual structure, SEO/GEO and accessibility in one project."
     }
   },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "headline": "Services that turn disconnected work into a clear system.",
+      "intro": "You can start with a single service or combine several into one project — whichever matches where your business needs it most."
+    },
+    "navHeading": "All services at a glance",
+    "detail": {
+      "businessSystemsDesign": {
+        "definition": "Analyzing and redesigning how a business operates so strategy, team and processes actually fit together.",
+        "situationHeading": "Typical starting point",
+        "situation": "Your company has grown, but its processes grew along with it almost by accident. No one can say precisely who is responsible for what.",
+        "includedHeading": "Included",
+        "included": [
+          "Process analysis",
+          "Current-state mapping",
+          "Bottleneck identification",
+          "Target operating structure",
+          "Roles and responsibilities",
+          "Implementation roadmap"
+        ],
+        "notIncludedHeading": "Not automatically included",
+        "notIncluded": "Day-to-day execution and project steering (see Project Management & Operations).",
+        "deliverablesHeading": "Deliverables",
+        "deliverables": ["Process map", "Bottleneck analysis", "Target-structure document", "Role matrix", "Implementation roadmap"],
+        "result": "A clear structure for how the business should operate.",
+        "formatsHeading": "Suitable project formats",
+        "formats": "A standalone project (2–4 weeks) or the foundation for a larger transformation project."
+      },
+      "marketingSystems": {
+        "definition": "Building one coherent marketing system out of strategy, customer journey, channels and reporting — instead of separate, disconnected campaigns.",
+        "situationHeading": "Typical starting point",
+        "situation": "You're running ads across several channels, but no one can say which channel actually brings in customers.",
+        "includedHeading": "Included",
+        "included": [
+          "Marketing strategy",
+          "Customer journey",
+          "Funnel structure",
+          "Channel roles",
+          "Campaign processes",
+          "Content logic",
+          "Analytics and reporting structure"
+        ],
+        "notIncludedHeading": "Not automatically included",
+        "notIncluded": "Day-to-day execution of individual ad campaigns or graphic production.",
+        "deliverablesHeading": "Deliverables",
+        "deliverables": ["Marketing strategy document", "Customer journey map", "Funnel structure", "Channel role assignment", "Reporting template"],
+        "result": "Marketing becomes a coordinated and measurable process.",
+        "formatsHeading": "Suitable project formats",
+        "formats": "Standalone project or combined with Premium Websites & Digital Experience."
+      },
+      "aiAutomation": {
+        "definition": "Targeted automation of recurring manual tasks using AI tools and clearly documented workflows.",
+        "situationHeading": "Typical starting point",
+        "situation": "Your team spends hours on repetitive tasks that could technically be automated, but no one has had time to actually do it.",
+        "includedHeading": "Included",
+        "included": [
+          "Manual-process analysis",
+          "Automation opportunity assessment",
+          "AI workflow design",
+          "AI assistants",
+          "Integrations",
+          "Documentation",
+          "Team instructions"
+        ],
+        "notIncludedHeading": "Not automatically included",
+        "notIncluded": "Building complex custom software from scratch.",
+        "deliverablesHeading": "Deliverables",
+        "deliverables": ["Process analysis", "Prioritized automation list", "Workflow documentation", "Configured AI assistants", "Team instructions"],
+        "result": "Less repetitive manual work and clearer workflows.",
+        "formatsHeading": "Suitable project formats",
+        "formats": "A single automation or ongoing support across several workflows."
+      },
+      "projectManagementOperations": {
+        "definition": "The structure that keeps projects planned, coordinated and visibly steered through to completion.",
+        "situationHeading": "Typical starting point",
+        "situation": "Projects are running, but no one has the full picture. Deadlines slip without anyone noticing in time.",
+        "includedHeading": "Included",
+        "included": [
+          "Project scope",
+          "Work breakdown",
+          "Responsibilities",
+          "Milestones",
+          "Risk tracking",
+          "Coordination",
+          "Documentation",
+          "Communication rhythm"
+        ],
+        "notIncludedHeading": "Not automatically included",
+        "notIncluded": "The hands-on execution of the project's underlying work itself (e.g. design or development work).",
+        "deliverablesHeading": "Deliverables",
+        "deliverables": ["Project structure plan", "Responsibility matrix", "Milestone plan", "Risk log", "Communication rhythm"],
+        "result": "Projects become visible, coordinated and manageable.",
+        "formatsHeading": "Suitable project formats",
+        "formats": "Support for a single project or ongoing project steering."
+      },
+      "premiumWebsitesDigitalExperience": {
+        "definition": "Building a multilingual, accessible website that makes your expertise visible and moves visitors toward a decision.",
+        "situationHeading": "Typical starting point",
+        "situation": "Your current website either looks outdated or reads like an interchangeable template — and doesn't explain why someone should work with you specifically.",
+        "includedHeading": "Included",
+        "included": [
+          "Discovery",
+          "Positioning",
+          "Information architecture",
+          "UX",
+          "Multilingual copy structure",
+          "Design system",
+          "Custom animations",
+          "Selective 3D",
+          "Accessibility",
+          "SEO",
+          "GEO",
+          "AI-assisted development",
+          "Testing",
+          "Launch",
+          "Post-launch support options"
+        ],
+        "notIncludedHeading": "Not automatically included",
+        "notIncluded": "Producing all photography or video from scratch (can be added separately).",
+        "deliverablesHeading": "Deliverables",
+        "deliverables": ["Content and IA structure", "Design system", "Working multilingual website", "SEO/GEO foundation", "Test report"],
+        "result": "A website that clearly presents your expertise, builds trust and moves visitors toward contact or purchase.",
+        "formatsHeading": "Suitable project formats",
+        "formats": "Standalone project or combined with Marketing Systems."
+      }
+    },
+    "combine": {
+      "eyebrow": "Combinations",
+      "heading": "How services combine",
+      "items": [
+        {
+          "title": "Premium Website & Marketing Systems",
+          "description": "A new website gets built directly into a working marketing structure, instead of standing alone."
+        },
+        {
+          "title": "AI Automation & Project Management",
+          "description": "Automated workflows get embedded into a clear project structure from day one."
+        },
+        {
+          "title": "Business Systems Design & Project Management",
+          "description": "The new operating structure gets carried directly into a manageable project, instead of staying theoretical."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Questions about the services",
+      "items": [
+        {
+          "question": "Do I need to choose one service, or can I combine several?",
+          "answer": "You can start with a single service or combine several into one project — depending on where the biggest bottleneck is."
+        },
+        {
+          "question": "How does getting started work?",
+          "answer": "We begin with a conversation about your current situation. From there, I propose a scope that fits."
+        },
+        {
+          "question": "How long does a typical project take?",
+          "answer": "It depends on scope — from a single automation over a few days to a multi-week systems project."
+        },
+        {
+          "question": "Do you work with existing tools and systems?",
+          "answer": "Yes. The starting point is always what's already in place — new tools are added only where they're genuinely needed."
+        },
+        {
+          "question": "What languages do you work in?",
+          "answer": "German, English, Ukrainian and Russian."
+        },
+        {
+          "question": "What happens after the project ends?",
+          "answer": "You receive documentation and a handover so the system keeps running without me. Ongoing support is available if wanted."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Describe your current situation.",
+      "button": "Describe your situation"
+    }
+  },
   "pages": {
     "services": { "title": "Services", "intro": "Five building blocks, one system." },
     "approach": { "title": "Approach", "intro": "Understand, analyse, design, implement, optimise." },

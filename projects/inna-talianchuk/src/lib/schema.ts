@@ -64,6 +64,22 @@ export function buildBreadcrumbSchema(
   };
 }
 
+export function buildItemListSchema(
+  locale: Locale,
+  items: { name: string; path: string }[],
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: absoluteUrl(locale, item.path),
+    })),
+  };
+}
+
 /** Only use this where the same Q&A pairs are actually visible on the page. */
 export function buildFaqSchema(faqs: { question: string; answer: string }[]) {
   return {

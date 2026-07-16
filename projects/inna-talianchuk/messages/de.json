@@ -67,6 +67,186 @@
       "short": "Strategie, UX, Design, Animation, Mehrsprachigkeit, SEO/GEO und Barrierefreiheit in einem Projekt."
     }
   },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Leistungen",
+      "headline": "Leistungen, die verstreute Arbeit in ein klares System verwandeln.",
+      "intro": "Sie können mit einem einzelnen Service starten oder mehrere zu einem Projekt kombinieren – je nachdem, wo der größte Engpass in Ihrem Unternehmen liegt."
+    },
+    "navHeading": "Alle Leistungen im Überblick",
+    "detail": {
+      "businessSystemsDesign": {
+        "definition": "Die Analyse und Neugestaltung der betrieblichen Abläufe eines Unternehmens, damit Strategie, Team und Prozesse ineinandergreifen.",
+        "situationHeading": "Typische Ausgangslage",
+        "situation": "Ihr Unternehmen ist gewachsen, aber die Prozesse sind eher zufällig mitgewachsen. Niemand kann genau erklären, wer wofür verantwortlich ist.",
+        "includedHeading": "Enthalten",
+        "included": [
+          "Prozessanalyse",
+          "Ist-Zustand-Kartierung",
+          "Identifikation von Engpässen",
+          "Ziel-Betriebsstruktur",
+          "Rollen und Verantwortlichkeiten",
+          "Umsetzungs-Roadmap"
+        ],
+        "notIncludedHeading": "Nicht automatisch enthalten",
+        "notIncluded": "Die laufende Umsetzung und Projektsteuerung im Tagesgeschäft (siehe Projektmanagement & Operations).",
+        "deliverablesHeading": "Ergebnisse (Deliverables)",
+        "deliverables": ["Prozesslandkarte", "Engpass-Analyse", "Zielstruktur-Dokument", "Rollenmatrix", "Umsetzungs-Roadmap"],
+        "result": "Eine klare Struktur dafür, wie das Unternehmen arbeiten sollte.",
+        "formatsHeading": "Passende Projektformate",
+        "formats": "Einzelprojekt (2–4 Wochen) oder als Grundlage für ein größeres Transformationsprojekt."
+      },
+      "marketingSystems": {
+        "definition": "Der Aufbau eines zusammenhängenden Marketing-Systems aus Strategie, Kundenreise, Kanälen und Auswertung – statt einzelner, unverbundener Kampagnen.",
+        "situationHeading": "Typische Ausgangslage",
+        "situation": "Sie schalten Werbung auf mehreren Kanälen, aber niemand kann sagen, welcher Kanal tatsächlich zu Kunden führt.",
+        "includedHeading": "Enthalten",
+        "included": [
+          "Marketingstrategie",
+          "Customer Journey",
+          "Funnel-Struktur",
+          "Rollen der Kanäle",
+          "Kampagnenprozesse",
+          "Content-Logik",
+          "Struktur für Analytics und Reporting"
+        ],
+        "notIncludedHeading": "Nicht automatisch enthalten",
+        "notIncluded": "Die tägliche Umsetzung einzelner Werbekampagnen oder die Grafikproduktion.",
+        "deliverablesHeading": "Ergebnisse (Deliverables)",
+        "deliverables": ["Marketingstrategie-Dokument", "Customer-Journey-Map", "Funnel-Struktur", "Kanal-Rollenverteilung", "Reporting-Vorlage"],
+        "result": "Marketing wird zu einem koordinierten und messbaren Prozess.",
+        "formatsHeading": "Passende Projektformate",
+        "formats": "Einzelprojekt oder in Kombination mit Premium-Websites & Digital Experience."
+      },
+      "aiAutomation": {
+        "definition": "Die gezielte Automatisierung wiederkehrender manueller Aufgaben mit KI-Werkzeugen und klar dokumentierten Workflows.",
+        "situationHeading": "Typische Ausgangslage",
+        "situation": "Ihr Team verbringt Stunden mit sich wiederholenden Aufgaben, die sich automatisieren ließen – nur hatte bisher niemand die Zeit dafür.",
+        "includedHeading": "Enthalten",
+        "included": [
+          "Analyse manueller Prozesse",
+          "Bewertung von Automatisierungspotenzial",
+          "Design von KI-Workflows",
+          "KI-Assistenten",
+          "Integrationen",
+          "Dokumentation",
+          "Team-Anleitung"
+        ],
+        "notIncludedHeading": "Nicht automatisch enthalten",
+        "notIncluded": "Die Entwicklung komplexer kundenspezifischer Software von Grund auf.",
+        "deliverablesHeading": "Ergebnisse (Deliverables)",
+        "deliverables": ["Prozessanalyse", "Priorisierte Automatisierungsliste", "Workflow-Dokumentation", "Eingerichtete KI-Assistenten", "Team-Anleitung"],
+        "result": "Weniger repetitive manuelle Arbeit und klarere Arbeitsabläufe.",
+        "formatsHeading": "Passende Projektformate",
+        "formats": "Einzelne Automatisierung oder laufende Betreuung mehrerer Workflows."
+      },
+      "projectManagementOperations": {
+        "definition": "Die Struktur, mit der Projekte geplant, koordiniert und bis zum Abschluss sichtbar gesteuert werden.",
+        "situationHeading": "Typische Ausgangslage",
+        "situation": "Projekte laufen, aber niemand hat den vollständigen Überblick. Fristen verschieben sich, ohne dass es rechtzeitig auffällt.",
+        "includedHeading": "Enthalten",
+        "included": [
+          "Projektumfang",
+          "Strukturierung der Arbeitspakete",
+          "Verantwortlichkeiten",
+          "Meilensteine",
+          "Risikoverfolgung",
+          "Koordination",
+          "Dokumentation",
+          "Kommunikationsrhythmus"
+        ],
+        "notIncludedHeading": "Nicht automatisch enthalten",
+        "notIncluded": "Die inhaltliche Umsetzung der Projektaufgaben selbst (z. B. Design- oder Entwicklungsarbeit).",
+        "deliverablesHeading": "Ergebnisse (Deliverables)",
+        "deliverables": ["Projektstrukturplan", "Verantwortlichkeitsmatrix", "Meilenstein-Plan", "Risikoliste", "Kommunikationsrhythmus"],
+        "result": "Projekte werden sichtbar, koordiniert und steuerbar.",
+        "formatsHeading": "Passende Projektformate",
+        "formats": "Begleitung eines einzelnen Projekts oder laufende Projektsteuerung."
+      },
+      "premiumWebsitesDigitalExperience": {
+        "definition": "Die Entwicklung einer mehrsprachigen, barrierefreien Website, die Expertise sichtbar macht und Besucher zu einer Entscheidung führt.",
+        "situationHeading": "Typische Ausgangslage",
+        "situation": "Ihre aktuelle Website wirkt entweder veraltet oder wie eine austauschbare Vorlage – und erklärt nicht, warum man ausgerechnet mit Ihnen arbeiten sollte.",
+        "includedHeading": "Enthalten",
+        "included": [
+          "Discovery",
+          "Positionierung",
+          "Informationsarchitektur",
+          "UX",
+          "Mehrsprachige Content-Struktur",
+          "Design-System",
+          "Individuelle Animationen",
+          "Punktuelles 3D",
+          "Barrierefreiheit",
+          "SEO",
+          "GEO",
+          "KI-gestützte Entwicklung",
+          "Testing",
+          "Launch",
+          "Optionen für Support nach dem Launch"
+        ],
+        "notIncludedHeading": "Nicht automatisch enthalten",
+        "notIncluded": "Die Produktion sämtlicher Fotos oder Videos von Grund auf (kann ergänzt werden).",
+        "deliverablesHeading": "Ergebnisse (Deliverables)",
+        "deliverables": ["Content- und IA-Struktur", "Design-System", "Funktionierende mehrsprachige Website", "SEO/GEO-Grundlage", "Testprotokoll"],
+        "result": "Eine Website, die Expertise sichtbar macht, Vertrauen aufbaut und Besucher zur Kontaktaufnahme oder zum Kauf bewegt.",
+        "formatsHeading": "Passende Projektformate",
+        "formats": "Einzelprojekt oder in Kombination mit Marketing-Systemen."
+      }
+    },
+    "combine": {
+      "eyebrow": "Kombinationen",
+      "heading": "Wie sich Leistungen kombinieren lassen",
+      "items": [
+        {
+          "title": "Premium-Website & Marketing-Systeme",
+          "description": "Eine neue Website wird direkt in eine funktionierende Marketing-Struktur eingebettet, statt isoliert zu stehen."
+        },
+        {
+          "title": "KI-Automatisierung & Projektmanagement",
+          "description": "Automatisierte Workflows werden von Anfang an in eine klare Projektstruktur eingebettet."
+        },
+        {
+          "title": "Business-Systeme-Design & Projektmanagement",
+          "description": "Die neue operative Struktur wird direkt in ein steuerbares Projekt überführt, statt Theorie zu bleiben."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "heading": "Fragen zu den Leistungen",
+      "items": [
+        {
+          "question": "Muss ich mich für eine Leistung entscheiden, oder kann ich mehrere kombinieren?",
+          "answer": "Sie können mit einer einzelnen Leistung starten oder mehrere zu einem Projekt kombinieren – je nachdem, wo der größte Engpass liegt."
+        },
+        {
+          "question": "Wie läuft der Einstieg ab?",
+          "answer": "Wir beginnen mit einem Gespräch über Ihre aktuelle Situation. Danach schlage ich einen passenden Projektumfang vor."
+        },
+        {
+          "question": "Wie lange dauert ein typisches Projekt?",
+          "answer": "Das hängt vom Umfang ab – von einer einzelnen Automatisierung über wenige Tage bis zu einem mehrwöchigen Systemprojekt."
+        },
+        {
+          "question": "Arbeiten Sie mit bestehenden Tools und Systemen?",
+          "answer": "Ja. Ausgangspunkt ist immer das, was bereits vorhanden ist – neue Werkzeuge kommen nur dazu, wo sie wirklich gebraucht werden."
+        },
+        {
+          "question": "In welchen Sprachen arbeiten Sie?",
+          "answer": "Deutsch, Englisch, Ukrainisch und Russisch."
+        },
+        {
+          "question": "Was passiert nach Projektabschluss?",
+          "answer": "Sie erhalten Dokumentation und eine Übergabe, sodass das System auch ohne mich weiterläuft. Laufende Betreuung ist optional möglich."
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Beschreiben Sie mir Ihre aktuelle Situation.",
+      "button": "Situation beschreiben"
+    }
+  },
   "pages": {
     "services": { "title": "Leistungen", "intro": "Fünf Bausteine, ein System." },
     "approach": { "title": "Ansatz", "intro": "Verstehen, analysieren, gestalten, umsetzen, optimieren." },
