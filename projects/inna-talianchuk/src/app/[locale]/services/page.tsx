@@ -8,7 +8,7 @@ import { MotionReveal } from "@/components/motion/MotionReveal";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { ServiceNav } from "@/components/services/ServiceNav";
 import { ServiceDetailSection } from "@/components/services/ServiceDetailSection";
-import { ServicesConnector } from "@/components/services/ServicesConnector";
+import { ScrollConnector } from "@/components/motion/ScrollConnector";
 import { ServiceCombinations } from "@/components/services/ServiceCombinations";
 import { ServicesFaq } from "@/components/services/ServicesFaq";
 import { ServicesFinalCta } from "@/components/services/ServicesFinalCta";
@@ -78,7 +78,7 @@ export default async function ServicesPage({ params }: { params: Promise<Params>
         <ServiceNav />
       </Section>
 
-      <ServicesConnector>
+      <ScrollConnector>
         {SERVICE_KEYS.map((key, index) => (
           <ServiceDetailSection
             key={key}
@@ -89,7 +89,7 @@ export default async function ServicesPage({ params }: { params: Promise<Params>
             alt={index % 2 === 1}
           />
         ))}
-      </ServicesConnector>
+      </ScrollConnector>
 
       <ServiceCombinations />
       <ServicesFaq />

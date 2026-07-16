@@ -4,12 +4,12 @@ import { useRef, type ReactNode } from "react";
 import { motion, useScroll, useSpring } from "motion/react";
 
 /**
- * Wraps the five service detail sections with a thin vertical line that
- * fills in as the visitor scrolls through them — the brief's "upward
- * moving connecting line" motif, tied to real scroll progress rather than
- * a one-off entrance animation.
+ * Wraps a sequence of sections with a thin vertical line that fills in as
+ * the visitor scrolls through them — a continuous path whose progress is
+ * tied to real scroll position rather than a one-off entrance animation.
+ * Used on the Services and Approach pages to connect their step sequences.
  */
-export function ServicesConnector({ children }: { children: ReactNode }) {
+export function ScrollConnector({ children }: { children: ReactNode }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,

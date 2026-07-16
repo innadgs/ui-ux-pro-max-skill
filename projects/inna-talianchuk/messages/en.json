@@ -399,6 +399,96 @@
       "button": "Describe your situation"
     }
   },
+  "approachPage": {
+    "hero": {
+      "eyebrow": "Approach",
+      "headline": "Clarity before tools.",
+      "intro": "The work begins with the business goal and the current process — not with choosing software."
+    },
+    "fieldLabels": {
+      "covers": "In focus",
+      "questions": "Questions answered",
+      "work": "Work performed",
+      "deliverable": "Deliverable",
+      "involvement": "Client involvement"
+    },
+    "steps": {
+      "understand": {
+        "title": "Understand",
+        "covers": ["Business goals", "Target audience", "Current process", "Stakeholders", "Constraints"],
+        "questions": "What needs to be achieved, for whom, and under what constraints?",
+        "work": "Conversations with the relevant people, review of existing documentation, and observation of the current process.",
+        "deliverable": "A written summary of the starting point and the goals.",
+        "involvement": "One or two structured conversations, plus access to relevant documentation."
+      },
+      "analyze": {
+        "title": "Analyze",
+        "covers": ["Bottlenecks", "Duplicated work", "Unclear responsibilities", "Disconnected tools", "Missing data", "Risks"],
+        "questions": "Where exactly does the bottleneck occur, and why doesn't the current process work?",
+        "work": "Systematic analysis of process steps, data flows and responsibilities.",
+        "deliverable": "A prioritized list of bottlenecks and risks.",
+        "involvement": "Follow-up questions to help interpret specific observations."
+      },
+      "design": {
+        "title": "Design",
+        "covers": ["Future process", "Responsibility model", "User journey", "System architecture", "Priorities", "Implementation sequence"],
+        "questions": "How should the process work going forward, and in what order will it be implemented?",
+        "work": "Designing the target process, the responsibilities and the technical structure.",
+        "deliverable": "A target-process document with an implementation sequence.",
+        "involvement": "Joint review and sign-off on the design."
+      },
+      "implement": {
+        "title": "Implement",
+        "covers": ["Project setup", "Content", "Design", "Automation", "Integrations", "Documentation", "Coordination"],
+        "questions": "How does the design get put into practice, and who does what?",
+        "work": "Implementing the agreed structure — from project setup to automation — with ongoing coordination.",
+        "deliverable": "The implemented structure, system or website, including documentation.",
+        "involvement": "Regular updates and decisions at defined checkpoints."
+      },
+      "optimize": {
+        "title": "Optimize",
+        "covers": ["Measurement", "Feedback", "Reporting", "Corrections", "Continuous improvement"],
+        "questions": "Is the result working as planned, and where does it need adjustment?",
+        "work": "Evaluating results against agreed metrics and making targeted corrections.",
+        "deliverable": "A report with results and recommended next steps.",
+        "involvement": "Regular exchange on results and priorities."
+      }
+    },
+    "principlesEyebrow": "Principles",
+    "principlesHeading": "Principles behind the work",
+    "principles": [
+      { "title": "Systems before tools", "description": "Structure first, then the software that supports it." },
+      { "title": "Technology serves people", "description": "Tools exist to make work easier — not the other way around." },
+      { "title": "Clear responsibility", "description": "Every step has one person accountable for it." },
+      { "title": "Measurable decisions", "description": "Decisions are based on data, not assumptions." },
+      { "title": "Sustainable implementation", "description": "Solutions that keep working after the project ends." },
+      { "title": "Documentation is part of delivery", "description": "Without documentation, an implementation isn't finished." }
+    ],
+    "formatsHeading": "Project formats",
+    "formatsText": "The approach applies just as well to a single project spanning a few days as to a multi-week systems transformation — the scope adapts to the actual task, not the other way around.",
+    "collaborationHeading": "Working together",
+    "collaborationText": "A fixed communication rhythm, clear points of contact on both sides, and decisions that get documented rather than just discussed.",
+    "faqEyebrow": "FAQ",
+    "faqHeading": "Questions about the approach",
+    "faq": [
+      {
+        "question": "Do I need to have everything figured out before the first conversation?",
+        "answer": "No. The first conversation exists specifically to map out the starting point together."
+      },
+      {
+        "question": "What if requirements change during the project?",
+        "answer": "The target process is jointly reviewed and signed off — changes are made visible, not quietly absorbed."
+      },
+      {
+        "question": "How much time do I need to contribute as a client?",
+        "answer": "It depends on the phase — most during Understand and Design, least during Implement and Optimize."
+      },
+      {
+        "question": "Does the collaboration end at launch?",
+        "answer": "Not automatically. The optimize phase can be a one-off or ongoing, matched to your needs."
+      }
+    ]
+  },
   "pages": {
     "services": { "title": "Services", "intro": "Five building blocks, one system." },
     "approach": { "title": "Approach", "intro": "Understand, analyse, design, implement, optimise." },

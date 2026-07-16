@@ -399,6 +399,96 @@
       "button": "Situation beschreiben"
     }
   },
+  "approachPage": {
+    "hero": {
+      "eyebrow": "Ansatz",
+      "headline": "Klarheit vor Werkzeugen.",
+      "intro": "Die Arbeit beginnt beim Geschäftsziel und dem aktuellen Prozess – nicht bei der Auswahl von Software."
+    },
+    "fieldLabels": {
+      "covers": "Im Fokus",
+      "questions": "Beantwortete Fragen",
+      "work": "Durchgeführte Arbeit",
+      "deliverable": "Ergebnis",
+      "involvement": "Einbindung des Kunden"
+    },
+    "steps": {
+      "understand": {
+        "title": "Verstehen",
+        "covers": ["Geschäftsziele", "Zielgruppe", "Aktueller Prozess", "Stakeholder", "Rahmenbedingungen"],
+        "questions": "Was soll erreicht werden, für wen, und unter welchen Rahmenbedingungen?",
+        "work": "Gespräche mit den relevanten Personen, Sichtung bestehender Unterlagen und Beobachtung des aktuellen Ablaufs.",
+        "deliverable": "Eine schriftliche Zusammenfassung der Ausgangslage und der Ziele.",
+        "involvement": "Ein bis zwei strukturierte Gespräche sowie Zugang zu relevanten Unterlagen."
+      },
+      "analyze": {
+        "title": "Analysieren",
+        "covers": ["Engpässe", "Doppelte Arbeit", "Unklare Zuständigkeiten", "Unverbundene Tools", "Fehlende Daten", "Risiken"],
+        "questions": "Wo genau entsteht der Engpass, und warum funktioniert der aktuelle Ablauf nicht?",
+        "work": "Systematische Analyse der Prozessschritte, Datenflüsse und Verantwortlichkeiten.",
+        "deliverable": "Eine priorisierte Liste der Engpässe und Risiken.",
+        "involvement": "Rückfragen zur Einordnung einzelner Beobachtungen."
+      },
+      "design": {
+        "title": "Gestalten",
+        "covers": ["Zukünftiger Prozess", "Verantwortungsmodell", "User Journey", "Systemarchitektur", "Prioritäten", "Umsetzungsreihenfolge"],
+        "questions": "Wie soll der Ablauf künftig funktionieren, und in welcher Reihenfolge wird das umgesetzt?",
+        "work": "Entwurf des Zielprozesses, der Verantwortlichkeiten und der technischen Struktur.",
+        "deliverable": "Ein Zielprozess-Dokument mit Umsetzungsreihenfolge.",
+        "involvement": "Gemeinsame Abstimmung und Freigabe des Entwurfs."
+      },
+      "implement": {
+        "title": "Umsetzen",
+        "covers": ["Projekt-Setup", "Content", "Design", "Automatisierung", "Integrationen", "Dokumentation", "Koordination"],
+        "questions": "Wie wird der Entwurf konkret umgesetzt, und wer macht was?",
+        "work": "Umsetzung der vereinbarten Struktur – von Projektaufbau bis Automatisierung – mit laufender Abstimmung.",
+        "deliverable": "Die umgesetzte Struktur, das System oder die Website, inklusive Dokumentation.",
+        "involvement": "Regelmäßige Updates und Entscheidungen an festgelegten Punkten."
+      },
+      "optimize": {
+        "title": "Optimieren",
+        "covers": ["Messung", "Feedback", "Reporting", "Korrekturen", "Kontinuierliche Verbesserung"],
+        "questions": "Funktioniert das Ergebnis wie geplant, und wo braucht es Anpassungen?",
+        "work": "Auswertung der Ergebnisse anhand vereinbarter Kennzahlen und gezielte Korrekturen.",
+        "deliverable": "Ein Reporting mit Ergebnissen und empfohlenen nächsten Schritten.",
+        "involvement": "Regelmäßiger Austausch zu Ergebnissen und Prioritäten."
+      }
+    },
+    "principlesEyebrow": "Prinzipien",
+    "principlesHeading": "Prinzipien hinter der Arbeit",
+    "principles": [
+      { "title": "Systeme vor Werkzeugen", "description": "Erst die Struktur, dann die Software, die sie unterstützt." },
+      { "title": "Technologie dient Menschen", "description": "Werkzeuge existieren, um Arbeit zu erleichtern – nicht umgekehrt." },
+      { "title": "Klare Verantwortung", "description": "Jeder Schritt hat eine Person, die dafür verantwortlich ist." },
+      { "title": "Messbare Entscheidungen", "description": "Entscheidungen basieren auf Daten, nicht auf Vermutungen." },
+      { "title": "Nachhaltige Umsetzung", "description": "Lösungen, die auch nach Projektende funktionieren." },
+      { "title": "Dokumentation gehört zur Leistung", "description": "Ohne Dokumentation ist eine Umsetzung nicht abgeschlossen." }
+    ],
+    "formatsHeading": "Projektformate",
+    "formatsText": "Der Ansatz lässt sich auf ein einzelnes Projekt von wenigen Tagen genauso anwenden wie auf eine mehrwöchige Systemtransformation – der Umfang wird an die tatsächliche Aufgabe angepasst, nicht umgekehrt.",
+    "collaborationHeading": "Zusammenarbeit",
+    "collaborationText": "Ein fester Kommunikationsrhythmus, klare Ansprechpartner auf beiden Seiten und Entscheidungen, die dokumentiert statt nur besprochen werden.",
+    "faqEyebrow": "Häufige Fragen",
+    "faqHeading": "Fragen zum Ansatz",
+    "faq": [
+      {
+        "question": "Muss ich mich schon vor dem ersten Gespräch festlegen?",
+        "answer": "Nein. Das erste Gespräch dient genau dazu, die Ausgangslage gemeinsam einzuordnen."
+      },
+      {
+        "question": "Was, wenn sich die Anforderungen während des Projekts ändern?",
+        "answer": "Der Zielprozess wird gemeinsam abgestimmt und freigegeben – Änderungen werden sichtbar gemacht, nicht stillschweigend übernommen."
+      },
+      {
+        "question": "Wie viel Zeit muss ich als Kunde einbringen?",
+        "answer": "Das hängt von der Phase ab – am meisten in Verstehen und Design, am wenigsten in Umsetzung und Optimierung."
+      },
+      {
+        "question": "Endet die Zusammenarbeit nach dem Launch?",
+        "answer": "Nicht automatisch. Die Optimierungsphase kann einmalig oder fortlaufend sein – abgestimmt auf Ihren Bedarf."
+      }
+    ]
+  },
   "pages": {
     "services": { "title": "Leistungen", "intro": "Fünf Bausteine, ein System." },
     "approach": { "title": "Ansatz", "intro": "Verstehen, analysieren, gestalten, umsetzen, optimieren." },
