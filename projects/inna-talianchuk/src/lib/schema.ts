@@ -4,13 +4,18 @@ import type { Locale } from "@/i18n/routing";
 const PERSON_NAME = "Inna Talianchuk";
 const JOB_TITLE = "Digital Systems Strategist & AI Business Orchestrator";
 
-export function buildPersonSchema(locale: Locale) {
+export function buildPersonSchema(
+  locale: Locale,
+  extra?: { image?: string; knowsAbout?: string[] },
+) {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
     name: PERSON_NAME,
     jobTitle: JOB_TITLE,
     url: absoluteUrl(locale),
+    ...(extra?.image ? { image: extra.image } : {}),
+    ...(extra?.knowsAbout?.length ? { knowsAbout: extra.knowsAbout } : {}),
   };
 }
 

@@ -91,7 +91,13 @@
         "notIncludedHeading": "Nicht automatisch enthalten",
         "notIncluded": "Die laufende Umsetzung und Projektsteuerung im Tagesgeschäft (siehe Projektmanagement & Operations).",
         "deliverablesHeading": "Ergebnisse (Deliverables)",
-        "deliverables": ["Prozesslandkarte", "Engpass-Analyse", "Zielstruktur-Dokument", "Rollenmatrix", "Umsetzungs-Roadmap"],
+        "deliverables": [
+          "Prozesslandkarte",
+          "Engpass-Analyse",
+          "Zielstruktur-Dokument",
+          "Rollenmatrix",
+          "Umsetzungs-Roadmap"
+        ],
         "result": "Eine klare Struktur dafür, wie das Unternehmen arbeiten sollte.",
         "formatsHeading": "Passende Projektformate",
         "formats": "Einzelprojekt (2–4 Wochen) oder als Grundlage für ein größeres Transformationsprojekt.",
@@ -140,11 +146,22 @@
         "notIncludedHeading": "Nicht automatisch enthalten",
         "notIncluded": "Die tägliche Umsetzung einzelner Werbekampagnen oder die Grafikproduktion.",
         "deliverablesHeading": "Ergebnisse (Deliverables)",
-        "deliverables": ["Marketingstrategie-Dokument", "Customer-Journey-Map", "Funnel-Struktur", "Kanal-Rollenverteilung", "Reporting-Vorlage"],
+        "deliverables": [
+          "Marketingstrategie-Dokument",
+          "Customer-Journey-Map",
+          "Funnel-Struktur",
+          "Kanal-Rollenverteilung",
+          "Reporting-Vorlage"
+        ],
         "result": "Marketing wird zu einem koordinierten und messbaren Prozess.",
         "formatsHeading": "Passende Projektformate",
         "formats": "Einzelprojekt oder in Kombination mit Premium-Websites & Digital Experience.",
-        "journeyStages": ["Aufmerksamkeit", "Interesse", "Entscheidung", "Bindung"],
+        "journeyStages": [
+          "Aufmerksamkeit",
+          "Interesse",
+          "Entscheidung",
+          "Bindung"
+        ],
         "usefulWhen": [
           "Sie schalten Werbung auf mehreren Kanälen, ohne den Effekt klar zuordnen zu können.",
           "Verschiedene Kanäle wirken, als gehörten sie zu unterschiedlichen Marken.",
@@ -190,7 +207,13 @@
         "notIncludedHeading": "Nicht automatisch enthalten",
         "notIncluded": "Die Entwicklung komplexer kundenspezifischer Software von Grund auf.",
         "deliverablesHeading": "Ergebnisse (Deliverables)",
-        "deliverables": ["Prozessanalyse", "Priorisierte Automatisierungsliste", "Workflow-Dokumentation", "Eingerichtete KI-Assistenten", "Team-Anleitung"],
+        "deliverables": [
+          "Prozessanalyse",
+          "Priorisierte Automatisierungsliste",
+          "Workflow-Dokumentation",
+          "Eingerichtete KI-Assistenten",
+          "Team-Anleitung"
+        ],
         "result": "Weniger repetitive manuelle Arbeit und klarere Arbeitsabläufe.",
         "formatsHeading": "Passende Projektformate",
         "formats": "Einzelne Automatisierung oder laufende Betreuung mehrerer Workflows.",
@@ -240,7 +263,13 @@
         "notIncludedHeading": "Nicht automatisch enthalten",
         "notIncluded": "Die inhaltliche Umsetzung der Projektaufgaben selbst (z. B. Design- oder Entwicklungsarbeit).",
         "deliverablesHeading": "Ergebnisse (Deliverables)",
-        "deliverables": ["Projektstrukturplan", "Verantwortlichkeitsmatrix", "Meilenstein-Plan", "Risikoliste", "Kommunikationsrhythmus"],
+        "deliverables": [
+          "Projektstrukturplan",
+          "Verantwortlichkeitsmatrix",
+          "Meilenstein-Plan",
+          "Risikoliste",
+          "Kommunikationsrhythmus"
+        ],
         "result": "Projekte werden sichtbar, koordiniert und steuerbar.",
         "formatsHeading": "Passende Projektformate",
         "formats": "Begleitung eines einzelnen Projekts oder laufende Projektsteuerung.",
@@ -297,11 +326,22 @@
         "notIncludedHeading": "Nicht automatisch enthalten",
         "notIncluded": "Die Produktion sämtlicher Fotos oder Videos von Grund auf (kann ergänzt werden).",
         "deliverablesHeading": "Ergebnisse (Deliverables)",
-        "deliverables": ["Content- und IA-Struktur", "Design-System", "Funktionierende mehrsprachige Website", "SEO/GEO-Grundlage", "Testprotokoll"],
+        "deliverables": [
+          "Content- und IA-Struktur",
+          "Design-System",
+          "Funktionierende mehrsprachige Website",
+          "SEO/GEO-Grundlage",
+          "Testprotokoll"
+        ],
         "result": "Eine Website, die Expertise sichtbar macht, Vertrauen aufbaut und Besucher zur Kontaktaufnahme oder zum Kauf bewegt.",
         "formatsHeading": "Passende Projektformate",
         "formats": "Einzelprojekt oder in Kombination mit Marketing-Systemen.",
-        "layers": ["Typografie", "Bild", "Layout", "Bewegung"],
+        "layers": [
+          "Typografie",
+          "Bild",
+          "Layout",
+          "Bewegung"
+        ],
         "usefulWhen": [
           "Ihre Website erklärt nicht, warum man mit Ihnen statt mit jemand anderem arbeiten sollte.",
           "Sie brauchen eine mehrsprachige Website für mehrere Märkte.",
@@ -332,7 +372,18 @@
         "expertise": {
           "heading": "Eine Website ist auch ein Nachweis von Expertise.",
           "intro": "Ihre Website zeigt nicht nur, was Sie anbieten – sie zeigt auch, wie Sie arbeiten. Deshalb verbindet die Entwicklung mehrere Ebenen:",
-          "list": ["Geschäftsverständnis", "Strategie", "Content-Architektur", "UX", "Visuelle Gestaltung", "Animation", "Technologie", "SEO/GEO", "Barrierefreiheit", "Launch"],
+          "list": [
+            "Geschäftsverständnis",
+            "Strategie",
+            "Content-Architektur",
+            "UX",
+            "Visuelle Gestaltung",
+            "Animation",
+            "Technologie",
+            "SEO/GEO",
+            "Barrierefreiheit",
+            "Launch"
+          ],
           "techNote": "Je nach Projekt kommen dabei unter anderem Next.js, React, Motion und punktuell Three.js zum Einsatz – als Umsetzungsmittel, nicht als eigentlicher Wert des Ergebnisses.",
           "aiNote": "KI-gestützte Entwicklung ist Teil des Arbeitsprozesses. Verantwortung für Strategie, Qualität und die endgültige Umsetzung liegt bei Inna."
         }
@@ -415,7 +466,13 @@
     "steps": {
       "understand": {
         "title": "Verstehen",
-        "covers": ["Geschäftsziele", "Zielgruppe", "Aktueller Prozess", "Stakeholder", "Rahmenbedingungen"],
+        "covers": [
+          "Geschäftsziele",
+          "Zielgruppe",
+          "Aktueller Prozess",
+          "Stakeholder",
+          "Rahmenbedingungen"
+        ],
         "questions": "Was soll erreicht werden, für wen, und unter welchen Rahmenbedingungen?",
         "work": "Gespräche mit den relevanten Personen, Sichtung bestehender Unterlagen und Beobachtung des aktuellen Ablaufs.",
         "deliverable": "Eine schriftliche Zusammenfassung der Ausgangslage und der Ziele.",
@@ -423,7 +480,14 @@
       },
       "analyze": {
         "title": "Analysieren",
-        "covers": ["Engpässe", "Doppelte Arbeit", "Unklare Zuständigkeiten", "Unverbundene Tools", "Fehlende Daten", "Risiken"],
+        "covers": [
+          "Engpässe",
+          "Doppelte Arbeit",
+          "Unklare Zuständigkeiten",
+          "Unverbundene Tools",
+          "Fehlende Daten",
+          "Risiken"
+        ],
         "questions": "Wo genau entsteht der Engpass, und warum funktioniert der aktuelle Ablauf nicht?",
         "work": "Systematische Analyse der Prozessschritte, Datenflüsse und Verantwortlichkeiten.",
         "deliverable": "Eine priorisierte Liste der Engpässe und Risiken.",
@@ -431,7 +495,14 @@
       },
       "design": {
         "title": "Gestalten",
-        "covers": ["Zukünftiger Prozess", "Verantwortungsmodell", "User Journey", "Systemarchitektur", "Prioritäten", "Umsetzungsreihenfolge"],
+        "covers": [
+          "Zukünftiger Prozess",
+          "Verantwortungsmodell",
+          "User Journey",
+          "Systemarchitektur",
+          "Prioritäten",
+          "Umsetzungsreihenfolge"
+        ],
         "questions": "Wie soll der Ablauf künftig funktionieren, und in welcher Reihenfolge wird das umgesetzt?",
         "work": "Entwurf des Zielprozesses, der Verantwortlichkeiten und der technischen Struktur.",
         "deliverable": "Ein Zielprozess-Dokument mit Umsetzungsreihenfolge.",
@@ -439,7 +510,15 @@
       },
       "implement": {
         "title": "Umsetzen",
-        "covers": ["Projekt-Setup", "Content", "Design", "Automatisierung", "Integrationen", "Dokumentation", "Koordination"],
+        "covers": [
+          "Projekt-Setup",
+          "Content",
+          "Design",
+          "Automatisierung",
+          "Integrationen",
+          "Dokumentation",
+          "Koordination"
+        ],
         "questions": "Wie wird der Entwurf konkret umgesetzt, und wer macht was?",
         "work": "Umsetzung der vereinbarten Struktur – von Projektaufbau bis Automatisierung – mit laufender Abstimmung.",
         "deliverable": "Die umgesetzte Struktur, das System oder die Website, inklusive Dokumentation.",
@@ -447,7 +526,13 @@
       },
       "optimize": {
         "title": "Optimieren",
-        "covers": ["Messung", "Feedback", "Reporting", "Korrekturen", "Kontinuierliche Verbesserung"],
+        "covers": [
+          "Messung",
+          "Feedback",
+          "Reporting",
+          "Korrekturen",
+          "Kontinuierliche Verbesserung"
+        ],
         "questions": "Funktioniert das Ergebnis wie geplant, und wo braucht es Anpassungen?",
         "work": "Auswertung der Ergebnisse anhand vereinbarter Kennzahlen und gezielte Korrekturen.",
         "deliverable": "Ein Reporting mit Ergebnissen und empfohlenen nächsten Schritten.",
@@ -457,12 +542,30 @@
     "principlesEyebrow": "Prinzipien",
     "principlesHeading": "Prinzipien hinter der Arbeit",
     "principles": [
-      { "title": "Systeme vor Werkzeugen", "description": "Erst die Struktur, dann die Software, die sie unterstützt." },
-      { "title": "Technologie dient Menschen", "description": "Werkzeuge existieren, um Arbeit zu erleichtern – nicht umgekehrt." },
-      { "title": "Klare Verantwortung", "description": "Jeder Schritt hat eine Person, die dafür verantwortlich ist." },
-      { "title": "Messbare Entscheidungen", "description": "Entscheidungen basieren auf Daten, nicht auf Vermutungen." },
-      { "title": "Nachhaltige Umsetzung", "description": "Lösungen, die auch nach Projektende funktionieren." },
-      { "title": "Dokumentation gehört zur Leistung", "description": "Ohne Dokumentation ist eine Umsetzung nicht abgeschlossen." }
+      {
+        "title": "Systeme vor Werkzeugen",
+        "description": "Erst die Struktur, dann die Software, die sie unterstützt."
+      },
+      {
+        "title": "Technologie dient Menschen",
+        "description": "Werkzeuge existieren, um Arbeit zu erleichtern – nicht umgekehrt."
+      },
+      {
+        "title": "Klare Verantwortung",
+        "description": "Jeder Schritt hat eine Person, die dafür verantwortlich ist."
+      },
+      {
+        "title": "Messbare Entscheidungen",
+        "description": "Entscheidungen basieren auf Daten, nicht auf Vermutungen."
+      },
+      {
+        "title": "Nachhaltige Umsetzung",
+        "description": "Lösungen, die auch nach Projektende funktionieren."
+      },
+      {
+        "title": "Dokumentation gehört zur Leistung",
+        "description": "Ohne Dokumentation ist eine Umsetzung nicht abgeschlossen."
+      }
     ],
     "formatsHeading": "Projektformate",
     "formatsText": "Der Ansatz lässt sich auf ein einzelnes Projekt von wenigen Tagen genauso anwenden wie auf eine mehrwöchige Systemtransformation – der Umfang wird an die tatsächliche Aufgabe angepasst, nicht umgekehrt.",
@@ -489,16 +592,224 @@
       }
     ]
   },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "Über mich",
+      "headline": "Ich füge keinen weiteren Lärm hinzu. Ich schaffe Struktur.",
+      "intro": "Ich arbeite an der Schnittstelle von Business, Projektmanagement, Marketing, E-Commerce, Digital Experience sowie KI und Automatisierung – und verbinde diese Bereiche zu Systemen, die im Alltag tragen.",
+      "portraitAlt": "Inna Talianchuk, Digital Systems Strategist & AI Business Orchestrator"
+    },
+    "positioning": {
+      "eyebrow": "Positionierung",
+      "heading": "Eine Disziplin allein löst kein strukturelles Problem.",
+      "text": "Die meisten Engpässe entstehen zwischen den Disziplinen: zwischen Strategie und Umsetzung, zwischen Marketing und Prozess, zwischen einem Werkzeug und der Person, die dafür verantwortlich ist. Deshalb arbeite ich bewusst über diese Grenzen hinweg.",
+      "areas": [
+        "Business",
+        "Projektmanagement",
+        "Marketing",
+        "E-Commerce",
+        "Digital Experience",
+        "KI & Automatisierung"
+      ]
+    },
+    "perspective": {
+      "eyebrow": "Berufliche Perspektive",
+      "heading": "Warum ich so arbeite",
+      "items": [
+        {
+          "title": "Prozesse kommen zuerst",
+          "text": "Ein gutes Werkzeug in einem unklaren Prozess beschleunigt nur das Chaos. Technologie lohnt sich erst, wenn der zugrunde liegende Ablauf klar ist."
+        },
+        {
+          "title": "Werkzeuge allein genügen nicht",
+          "text": "Software löst kein Problem, das strukturell ist. Entscheidend ist, wie Menschen, Verantwortlichkeiten und Daten zusammenspielen."
+        },
+        {
+          "title": "Websites sind Teil des Systems",
+          "text": "Eine Website überzeugt nur, wenn Geschäftsnutzen, UX, Inhalt und Technik gemeinsam gedacht werden – nicht als getrennte Gewerke."
+        },
+        {
+          "title": "Umsetzung muss verständlich bleiben",
+          "text": "Eine Umsetzung, die der Kunde nicht versteht, ist keine abgeschlossene Umsetzung. Nachvollziehbarkeit gehört zum Ergebnis."
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "Erfahrung",
+      "heading": "Stationen und übertragbare Kompetenz",
+      "note": "Arbeitgeberdetails bleiben vertraulich. Entscheidend ist hier, welche Kompetenz aus jeder Station in die heutige Arbeit mit Kunden einfließt.",
+      "stations": [
+        {
+          "title": "Institutionelle Verwaltung und strukturierte Abläufe",
+          "description": "Arbeit in einem Umfeld, in dem Genauigkeit, Dokumentation und geregelte Verfahren nicht optional sind.",
+          "competencies": [
+            "Institutionelle Verwaltung",
+            "Beschaffung",
+            "Strukturierte Abläufe",
+            "Dokumentation"
+          ]
+        },
+        {
+          "title": "Projektleitung und Koordination",
+          "description": "Verantwortung für parallele Projekte, Termine und Beteiligte – und für die Prozesse, die alles zusammenhalten.",
+          "competencies": [
+            "Führung",
+            "Multiprojekt-Koordination",
+            "Prozessentwicklung",
+            "Stakeholder-Management"
+          ]
+        },
+        {
+          "title": "Marketing und E-Commerce",
+          "description": "Aufbau und Steuerung von Marketing- und Vertriebsstrukturen, in denen Entscheidungen auf Zahlen statt auf Vermutungen basieren.",
+          "competencies": [
+            "Marketing",
+            "E-Commerce",
+            "Analytik"
+          ]
+        },
+        {
+          "title": "Websites und Digital Experience",
+          "description": "Konzeption und Erstellung von Websites, bei denen Inhalt, Gestaltung und Technik ein gemeinsames Ziel verfolgen.",
+          "competencies": [
+            "Website-Erstellung"
+          ]
+        }
+      ]
+    },
+    "matrix": {
+      "eyebrow": "Kompetenzmatrix",
+      "heading": "Konkrete Fähigkeiten statt Adjektive",
+      "categories": [
+        {
+          "title": "Business & Strategie",
+          "capabilities": [
+            "Prozessanalyse und Ist-Aufnahme",
+            "Identifikation von Engpässen",
+            "Ziel-Betriebsstruktur und Verantwortungsmodell",
+            "Umsetzungs-Roadmaps"
+          ]
+        },
+        {
+          "title": "Projektmanagement",
+          "capabilities": [
+            "Projektaufbau und Planung",
+            "Multiprojekt-Koordination",
+            "Termin- und Meilensteinsteuerung",
+            "Stakeholder-Kommunikation"
+          ]
+        },
+        {
+          "title": "Marketing & E-Commerce",
+          "capabilities": [
+            "Aufbau von Marketingsystemen",
+            "Strukturierung der Customer Journey",
+            "Kanal- und Kampagnenkoordination",
+            "Auswertung anhand definierter Kennzahlen"
+          ]
+        },
+        {
+          "title": "KI & Automatisierung",
+          "capabilities": [
+            "Identifikation automatisierbarer Schritte",
+            "Gestaltung von Automatisierungsabläufen",
+            "Bewertung von KI-Einsatz nach realem Nutzen",
+            "Klare Verantwortung trotz Automatisierung"
+          ]
+        },
+        {
+          "title": "Websites & Digital Experience",
+          "capabilities": [
+            "Informationsarchitektur",
+            "Content-Struktur",
+            "Koordination von Design und Umsetzung",
+            "Barrierefreiheit und SEO-Grundlagen"
+          ]
+        },
+        {
+          "title": "Kommunikation & Dokumentation",
+          "capabilities": [
+            "Prozessdokumentation",
+            "Entscheidungsprotokolle",
+            "Klare Briefings",
+            "Übergabe- und Schulungsunterlagen"
+          ]
+        }
+      ]
+    },
+    "education": {
+      "eyebrow": "Ausbildung & Zertifikate",
+      "heading": "Qualifikationen",
+      "items": []
+    },
+    "philosophy": {
+      "eyebrow": "Arbeitsphilosophie",
+      "heading": "Woran sich meine Arbeit orientiert",
+      "principles": [
+        {
+          "title": "Klarheit",
+          "description": "Jede Entscheidung beginnt mit einem klaren Bild der Lage – nicht mit einem Werkzeug."
+        },
+        {
+          "title": "Freiheit",
+          "description": "Gute Systeme schaffen Freiraum: Sie nehmen Routine ab, damit Zeit für das Wesentliche bleibt."
+        },
+        {
+          "title": "Kompetenz",
+          "description": "Empfehlungen basieren auf Erfahrung und Daten, nicht auf Trends."
+        },
+        {
+          "title": "Systeme",
+          "description": "Einzelmaßnahmen verpuffen. Wirkung entsteht, wenn die Teile zusammenspielen."
+        },
+        {
+          "title": "Langfristige Qualität",
+          "description": "Ich baue Lösungen, die auch in einem, drei und fünf Jahren noch funktionieren."
+        },
+        {
+          "title": "Praktische Umsetzung",
+          "description": "Ein Konzept zählt erst, wenn es im Alltag trägt – verständlich, dokumentiert, nutzbar."
+        }
+      ]
+    }
+  },
   "pages": {
-    "services": { "title": "Leistungen", "intro": "Fünf Bausteine, ein System." },
-    "approach": { "title": "Ansatz", "intro": "Verstehen, analysieren, gestalten, umsetzen, optimieren." },
-    "about": { "title": "Über mich", "intro": "Warum ich so arbeite, wie ich arbeite." },
-    "caseStudies": { "title": "Referenzen", "intro": "Ausgewählte Projekte und Ergebnisse." },
-    "insights": { "title": "Insights", "intro": "Notizen zu Systemen, KI und Wachstum." },
-    "contact": { "title": "Kontakt", "intro": "Lassen Sie uns über Ihr Projekt sprechen." },
-    "impressum": { "title": "Impressum", "intro": "Anbieterkennzeichnung." },
-    "privacy": { "title": "Datenschutz", "intro": "Informationen zum Umgang mit Ihren Daten." },
-    "accessibility": { "title": "Barrierefreiheit", "intro": "Unsere Erklärung zur Barrierefreiheit dieser Website." }
+    "services": {
+      "title": "Leistungen",
+      "intro": "Fünf Bausteine, ein System."
+    },
+    "approach": {
+      "title": "Ansatz",
+      "intro": "Verstehen, analysieren, gestalten, umsetzen, optimieren."
+    },
+    "about": {
+      "title": "Über mich",
+      "intro": "Warum ich so arbeite, wie ich arbeite."
+    },
+    "caseStudies": {
+      "title": "Referenzen",
+      "intro": "Ausgewählte Projekte und Ergebnisse."
+    },
+    "insights": {
+      "title": "Insights",
+      "intro": "Notizen zu Systemen, KI und Wachstum."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "intro": "Lassen Sie uns über Ihr Projekt sprechen."
+    },
+    "impressum": {
+      "title": "Impressum",
+      "intro": "Anbieterkennzeichnung."
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "intro": "Informationen zum Umgang mit Ihren Daten."
+    },
+    "accessibility": {
+      "title": "Barrierefreiheit",
+      "intro": "Unsere Erklärung zur Barrierefreiheit dieser Website."
+    }
   },
   "home": {
     "hero": {
@@ -539,11 +850,26 @@
       "eyebrow": "Das System",
       "headline": "Ich verbinde Strategie, Prozesse und Technologie zu einem funktionierenden System.",
       "capabilities": {
-        "strategy": { "title": "Strategie", "description": "Klare Ziele und eine Roadmap, die zur Umsetzung passt." },
-        "marketing": { "title": "Marketing", "description": "Kanäle, Botschaften und Daten, die zusammen wirken." },
-        "aiAutomation": { "title": "KI & Automatisierung", "description": "KI dort, wo sie wirklich Zeit und Klarheit schafft." },
-        "projectManagement": { "title": "Projektmanagement", "description": "Verantwortlichkeiten, Fristen und Fortschritt im Blick." },
-        "websites": { "title": "Websites & Digital Experience", "description": "Eine digitale Erfahrung, die Vertrauen aufbaut und Ergebnisse erklärt." }
+        "strategy": {
+          "title": "Strategie",
+          "description": "Klare Ziele und eine Roadmap, die zur Umsetzung passt."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "Kanäle, Botschaften und Daten, die zusammen wirken."
+        },
+        "aiAutomation": {
+          "title": "KI & Automatisierung",
+          "description": "KI dort, wo sie wirklich Zeit und Klarheit schafft."
+        },
+        "projectManagement": {
+          "title": "Projektmanagement",
+          "description": "Verantwortlichkeiten, Fristen und Fortschritt im Blick."
+        },
+        "websites": {
+          "title": "Websites & Digital Experience",
+          "description": "Eine digitale Erfahrung, die Vertrauen aufbaut und Ergebnisse erklärt."
+        }
       }
     },
     "servicesOverview": {
@@ -582,22 +908,52 @@
       "headline": "Fünf Schritte. Kein Rätselraten.",
       "cta": "Den gesamten Ansatz ansehen",
       "steps": {
-        "understand": { "title": "Verstehen", "description": "Ich verschaffe mir ein klares Bild vom Unternehmen." },
-        "analyze": { "title": "Analysieren", "description": "Ich identifiziere die eigentlichen Engpässe." },
-        "design": { "title": "Gestalten", "description": "Ich entwerfe das System." },
-        "implement": { "title": "Umsetzen", "description": "Ich setze die Veränderungen um." },
-        "optimize": { "title": "Optimieren", "description": "Ich messe Ergebnisse und verbessere das System." }
+        "understand": {
+          "title": "Verstehen",
+          "description": "Ich verschaffe mir ein klares Bild vom Unternehmen."
+        },
+        "analyze": {
+          "title": "Analysieren",
+          "description": "Ich identifiziere die eigentlichen Engpässe."
+        },
+        "design": {
+          "title": "Gestalten",
+          "description": "Ich entwerfe das System."
+        },
+        "implement": {
+          "title": "Umsetzen",
+          "description": "Ich setze die Veränderungen um."
+        },
+        "optimize": {
+          "title": "Optimieren",
+          "description": "Ich messe Ergebnisse und verbessere das System."
+        }
       }
     },
     "experience": {
       "eyebrow": "Erfahrung & Kompetenz",
       "headline": "Fundiert in fünf Bereichen, verbunden zu einem System.",
       "areas": {
-        "businessStrategy": { "title": "Business & Strategie", "description": "Geschäftsprozesse verstehen, Engpässe erkennen, Strukturen entwerfen, die tragen." },
-        "marketing": { "title": "Marketing", "description": "Strategie, Customer Journey und Performance als ein zusammenhängendes Bild." },
-        "projectManagement": { "title": "Projektmanagement", "description": "Planung, Koordination und Fristen, die eingehalten werden." },
-        "aiAutomation": { "title": "KI & Automatisierung", "description": "Den Unterschied erkennen zwischen echtem Mehrwert und reinem Trend." },
-        "websites": { "title": "Websites & Digital Experience", "description": "Design, Technik und Inhalt, die gemeinsam überzeugen." }
+        "businessStrategy": {
+          "title": "Business & Strategie",
+          "description": "Geschäftsprozesse verstehen, Engpässe erkennen, Strukturen entwerfen, die tragen."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "Strategie, Customer Journey und Performance als ein zusammenhängendes Bild."
+        },
+        "projectManagement": {
+          "title": "Projektmanagement",
+          "description": "Planung, Koordination und Fristen, die eingehalten werden."
+        },
+        "aiAutomation": {
+          "title": "KI & Automatisierung",
+          "description": "Den Unterschied erkennen zwischen echtem Mehrwert und reinem Trend."
+        },
+        "websites": {
+          "title": "Websites & Digital Experience",
+          "description": "Design, Technik und Inhalt, die gemeinsam überzeugen."
+        }
       }
     },
     "selectedWork": {
@@ -612,9 +968,21 @@
       "headline": "Notizen zu Systemen, KI und Wachstum",
       "cta": "Alle Insights ansehen",
       "items": [
-        { "category": "Business-Systeme", "title": "Warum „mehr Tools“ selten das Problem löst", "excerpt": "Zusätzliche Software ersetzt kein fehlendes System." },
-        { "category": "KI & Automatisierung", "title": "KI ist kein Ersatz für ein fehlendes System", "excerpt": "Automatisierung verstärkt, was bereits funktioniert — und auch, was nicht funktioniert." },
-        { "category": "Projektmanagement", "title": "Warum Fristen reißen, wenn Verantwortung unklar ist", "excerpt": "Die meisten Verzögerungen beginnen bei einer Entscheidung, die niemand treffen sollte." }
+        {
+          "category": "Business-Systeme",
+          "title": "Warum „mehr Tools“ selten das Problem löst",
+          "excerpt": "Zusätzliche Software ersetzt kein fehlendes System."
+        },
+        {
+          "category": "KI & Automatisierung",
+          "title": "KI ist kein Ersatz für ein fehlendes System",
+          "excerpt": "Automatisierung verstärkt, was bereits funktioniert — und auch, was nicht funktioniert."
+        },
+        {
+          "category": "Projektmanagement",
+          "title": "Warum Fristen reißen, wenn Verantwortung unklar ist",
+          "excerpt": "Die meisten Verzögerungen beginnen bei einer Entscheidung, die niemand treffen sollte."
+        }
       ]
     },
     "finalCta": {
