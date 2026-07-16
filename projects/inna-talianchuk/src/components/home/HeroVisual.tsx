@@ -65,9 +65,9 @@ export function HeroVisual({
 
   return (
     <div ref={containerRef} className="relative mx-auto w-full max-w-md">
-      <div className="relative aspect-4/5 w-full overflow-hidden rounded-[2rem] border border-card-border shadow-soft">
+      <div className="relative aspect-[2/3] w-full overflow-hidden rounded-[2rem] border border-card-border shadow-soft">
         <AccessibleImage
-          src="/images/portrait-placeholder.svg"
+          src="/images/portrait-hero.jpg"
           alt={portraitAlt}
           fill
           priority
