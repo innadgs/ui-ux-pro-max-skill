@@ -64,6 +64,25 @@ export function buildBreadcrumbSchema(
   };
 }
 
+export function buildServiceSchema(
+  locale: Locale,
+  service: { name: string; description: string; path: string },
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.name,
+    description: service.description,
+    url: absoluteUrl(locale, service.path),
+    provider: {
+      "@type": "Person",
+      name: PERSON_NAME,
+    },
+    areaServed: "Worldwide",
+    availableLanguage: ["de", "en", "uk", "ru"],
+  };
+}
+
 export function buildItemListSchema(
   locale: Locale,
   items: { name: string; path: string }[],

@@ -94,7 +94,34 @@
         "deliverables": ["Process map", "Bottleneck analysis", "Target-structure document", "Role matrix", "Implementation roadmap"],
         "result": "A clear structure for how the business should operate.",
         "formatsHeading": "Suitable project formats",
-        "formats": "A standalone project (2–4 weeks) or the foundation for a larger transformation project."
+        "formats": "A standalone project (2–4 weeks) or the foundation for a larger transformation project.",
+        "usefulWhen": [
+          "Your company is growing faster than its processes.",
+          "You're taking over an existing team or department.",
+          "Different people make similar decisions in different ways.",
+          "You're planning a larger structural change."
+        ],
+        "problems": [
+          "Unclear responsibilities between team members.",
+          "Repeated back-and-forth without a clear decision.",
+          "Processes only one person understands.",
+          "No overview of how work actually flows."
+        ],
+        "doesNotPromise": "This service does not promise specific revenue or growth figures. The result is a working structure — not a guaranteed metric.",
+        "faq": [
+          {
+            "question": "Do I need to abandon my existing processes completely?",
+            "answer": "No. The starting point is always what already works — we change specifically what doesn't."
+          },
+          {
+            "question": "Who is this service for?",
+            "answer": "Companies that have grown or changed without their internal structure keeping pace."
+          },
+          {
+            "question": "Do I get written documentation?",
+            "answer": "Yes. You receive a process map, a target-structure document and a role matrix."
+          }
+        ]
       },
       "marketingSystems": {
         "definition": "Building one coherent marketing system out of strategy, customer journey, channels and reporting — instead of separate, disconnected campaigns.",
@@ -116,7 +143,35 @@
         "deliverables": ["Marketing strategy document", "Customer journey map", "Funnel structure", "Channel role assignment", "Reporting template"],
         "result": "Marketing becomes a coordinated and measurable process.",
         "formatsHeading": "Suitable project formats",
-        "formats": "Standalone project or combined with Premium Websites & Digital Experience."
+        "formats": "Standalone project or combined with Premium Websites & Digital Experience.",
+        "journeyStages": ["Awareness", "Interest", "Decision", "Retention"],
+        "usefulWhen": [
+          "You're spending on ads without being able to attribute the effect clearly.",
+          "Different channels feel like they belong to different brands.",
+          "You're launching a new offer and need a clear marketing structure.",
+          "Reporting exists, but no one actually uses it."
+        ],
+        "problems": [
+          "Campaigns with no recognizable shared strategy.",
+          "No clear customer journey from first contact to close.",
+          "Unclear division of roles between channels.",
+          "Data that's collected but never analyzed."
+        ],
+        "doesNotPromise": "This service does not promise specific revenue or growth percentages. It builds the structure that makes marketing measurable in the first place.",
+        "faq": [
+          {
+            "question": "Do you also execute the ad campaigns?",
+            "answer": "Day-to-day campaign execution isn't automatically included — I build the structure that you or your team then fill."
+          },
+          {
+            "question": "Do I already need channels like social media or Google Ads?",
+            "answer": "No. We define the strategy first, then choose the right channels."
+          },
+          {
+            "question": "How is success measured?",
+            "answer": "Through the reporting structure we define together, matched to your actual goals."
+          }
+        ]
       },
       "aiAutomation": {
         "definition": "Targeted automation of recurring manual tasks using AI tools and clearly documented workflows.",
@@ -138,7 +193,34 @@
         "deliverables": ["Process analysis", "Prioritized automation list", "Workflow documentation", "Configured AI assistants", "Team instructions"],
         "result": "Less repetitive manual work and clearer workflows.",
         "formatsHeading": "Suitable project formats",
-        "formats": "A single automation or ongoing support across several workflows."
+        "formats": "A single automation or ongoing support across several workflows.",
+        "usefulWhen": [
+          "Your team does the same task manually every week.",
+          "Data gets copied between tools by hand.",
+          "You've heard about AI but don't know where it would actually help.",
+          "Errors keep happening from repeated manual steps."
+        ],
+        "problems": [
+          "Time-consuming routine tasks with no automation.",
+          "Data that has to be moved manually between tools.",
+          "Missing documentation of existing workflows.",
+          "Uncertainty about which AI tools genuinely fit."
+        ],
+        "doesNotPromise": "This service does not promise full automation of every process or specific cost savings. Automation happens exactly where it creates real value.",
+        "faq": [
+          {
+            "question": "Does this replace staff?",
+            "answer": "No. Repetitive tasks get automated — responsibility and decisions stay with people."
+          },
+          {
+            "question": "Which AI tools do you work with?",
+            "answer": "The choice depends on your actual needs and the systems already in place."
+          },
+          {
+            "question": "What if an automation doesn't work as intended?",
+            "answer": "Every automation is documented and tested before it goes into regular use."
+          }
+        ]
       },
       "projectManagementOperations": {
         "definition": "The structure that keeps projects planned, coordinated and visibly steered through to completion.",
@@ -161,7 +243,34 @@
         "deliverables": ["Project structure plan", "Responsibility matrix", "Milestone plan", "Risk log", "Communication rhythm"],
         "result": "Projects become visible, coordinated and manageable.",
         "formatsHeading": "Suitable project formats",
-        "formats": "Support for a single project or ongoing project steering."
+        "formats": "Support for a single project or ongoing project steering.",
+        "usefulWhen": [
+          "Several projects are running at once with no shared overview.",
+          "Deadlines slip without anyone catching it early.",
+          "Communication between team and stakeholders is unclear.",
+          "A larger new project is starting and needs structure from day one."
+        ],
+        "problems": [
+          "Unclear responsibilities within a project.",
+          "Risks identified too late.",
+          "No regular communication rhythm within the team.",
+          "Progress that no one documents visibly."
+        ],
+        "doesNotPromise": "This service does not take over the hands-on execution of the project's underlying work, and doesn't guarantee fixed completion dates regardless of project scope.",
+        "faq": [
+          {
+            "question": "Do you also handle the hands-on work, like design or development?",
+            "answer": "No, that's not automatically included — I coordinate and structure; the hands-on work stays with the people or teams responsible."
+          },
+          {
+            "question": "Does this work for a single, smaller project too?",
+            "answer": "Yes, the scope is adjusted to the size of the project."
+          },
+          {
+            "question": "How often are there project status updates?",
+            "answer": "We agree on a fixed communication rhythm together."
+          }
+        ]
       },
       "premiumWebsitesDigitalExperience": {
         "definition": "Building a multilingual, accessible website that makes your expertise visible and moves visitors toward a decision.",
@@ -191,8 +300,51 @@
         "deliverables": ["Content and IA structure", "Design system", "Working multilingual website", "SEO/GEO foundation", "Test report"],
         "result": "A website that clearly presents your expertise, builds trust and moves visitors toward contact or purchase.",
         "formatsHeading": "Suitable project formats",
-        "formats": "Standalone project or combined with Marketing Systems."
+        "formats": "Standalone project or combined with Marketing Systems.",
+        "layers": ["Typography", "Image", "Layout", "Motion"],
+        "usefulWhen": [
+          "Your website doesn't explain why someone should work with you instead of someone else.",
+          "You need a multilingual website for several markets.",
+          "The current website looks technically or visually outdated.",
+          "You're launching a new offer and need a standalone digital presence."
+        ],
+        "problems": [
+          "No clear positioning on the website.",
+          "No multilingual structure despite needing several languages.",
+          "Weak accessibility for people with disabilities.",
+          "A website that's hard to find on Google or in AI-powered search tools."
+        ],
+        "doesNotPromise": "This service does not promise a specific number of visitors, inquiries or sales. It delivers a website that makes your expertise visible and supports decisions.",
+        "faq": [
+          {
+            "question": "Do you write the website copy too?",
+            "answer": "Content and information architecture are part of the service. Base copy can be developed together."
+          },
+          {
+            "question": "Is AI used in development?",
+            "answer": "AI-assisted development is part of the workflow. I'm personally responsible for strategy, quality and final implementation."
+          },
+          {
+            "question": "What technology is used?",
+            "answer": "Depending on the project: Next.js, React, Motion and selectively Three.js, among others — technology is a means to an end, not the core of the result."
+          }
+        ],
+        "expertise": {
+          "heading": "A website is also proof of expertise.",
+          "intro": "Your website doesn't just show what you offer — it shows how you work. That's why building it combines several layers:",
+          "list": ["Business understanding", "Strategy", "Content architecture", "UX", "Visual direction", "Animation", "Technology", "SEO/GEO", "Accessibility", "Launch"],
+          "techNote": "Depending on the project, this can include Next.js, React, Motion and selectively Three.js — as implementation tools, not as the actual value of the result.",
+          "aiNote": "AI-assisted development is part of the workflow. Responsibility for strategy, quality and final implementation stays with Inna."
+        }
       }
+    },
+    "template": {
+      "usefulWhenHeading": "This service is useful when…",
+      "problemsHeading": "Problems this addresses",
+      "processHeading": "Working process",
+      "doesNotPromiseHeading": "What this service does not promise",
+      "relatedHeading": "Related services",
+      "faqHeading": "Frequently asked questions"
     },
     "combine": {
       "eyebrow": "Combinations",

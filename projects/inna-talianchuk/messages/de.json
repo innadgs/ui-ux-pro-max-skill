@@ -94,7 +94,34 @@
         "deliverables": ["Prozesslandkarte", "Engpass-Analyse", "Zielstruktur-Dokument", "Rollenmatrix", "Umsetzungs-Roadmap"],
         "result": "Eine klare Struktur dafür, wie das Unternehmen arbeiten sollte.",
         "formatsHeading": "Passende Projektformate",
-        "formats": "Einzelprojekt (2–4 Wochen) oder als Grundlage für ein größeres Transformationsprojekt."
+        "formats": "Einzelprojekt (2–4 Wochen) oder als Grundlage für ein größeres Transformationsprojekt.",
+        "usefulWhen": [
+          "Ihr Unternehmen wächst schneller, als die Prozesse mitwachsen.",
+          "Sie übernehmen ein bestehendes Team oder eine bestehende Abteilung.",
+          "Mehrere Personen treffen ähnliche Entscheidungen unterschiedlich.",
+          "Sie planen eine größere strukturelle Veränderung."
+        ],
+        "problems": [
+          "Unklare Zuständigkeiten zwischen Teammitgliedern.",
+          "Wiederholte Abstimmungsschleifen ohne klare Entscheidung.",
+          "Prozesse, die nur eine Person versteht.",
+          "Fehlende Übersicht über den tatsächlichen Ablauf der Arbeit."
+        ],
+        "doesNotPromise": "Dieser Service verspricht keine bestimmten Umsatz- oder Wachstumszahlen. Das Ergebnis ist eine funktionierende Struktur – keine garantierte Kennzahl.",
+        "faq": [
+          {
+            "question": "Muss ich meine bestehenden Prozesse komplett aufgeben?",
+            "answer": "Nein. Ausgangspunkt ist immer das, was bereits funktioniert – wir verändern gezielt das, was nicht funktioniert."
+          },
+          {
+            "question": "Für wen ist dieser Service geeignet?",
+            "answer": "Für Unternehmen, die gewachsen sind oder sich verändert haben, ohne dass die interne Struktur mitgewachsen ist."
+          },
+          {
+            "question": "Erhalte ich eine schriftliche Dokumentation?",
+            "answer": "Ja. Sie erhalten eine Prozesslandkarte, ein Zielstruktur-Dokument und eine Rollenmatrix."
+          }
+        ]
       },
       "marketingSystems": {
         "definition": "Der Aufbau eines zusammenhängenden Marketing-Systems aus Strategie, Kundenreise, Kanälen und Auswertung – statt einzelner, unverbundener Kampagnen.",
@@ -116,7 +143,35 @@
         "deliverables": ["Marketingstrategie-Dokument", "Customer-Journey-Map", "Funnel-Struktur", "Kanal-Rollenverteilung", "Reporting-Vorlage"],
         "result": "Marketing wird zu einem koordinierten und messbaren Prozess.",
         "formatsHeading": "Passende Projektformate",
-        "formats": "Einzelprojekt oder in Kombination mit Premium-Websites & Digital Experience."
+        "formats": "Einzelprojekt oder in Kombination mit Premium-Websites & Digital Experience.",
+        "journeyStages": ["Aufmerksamkeit", "Interesse", "Entscheidung", "Bindung"],
+        "usefulWhen": [
+          "Sie schalten Werbung auf mehreren Kanälen, ohne den Effekt klar zuordnen zu können.",
+          "Verschiedene Kanäle wirken, als gehörten sie zu unterschiedlichen Marken.",
+          "Sie starten ein neues Angebot und brauchen eine klare Vermarktungsstruktur.",
+          "Reporting existiert, wird aber von niemandem wirklich genutzt."
+        ],
+        "problems": [
+          "Kampagnen ohne erkennbare gemeinsame Strategie.",
+          "Keine klare Customer Journey vom ersten Kontakt bis zum Abschluss.",
+          "Unklare Rollenverteilung zwischen Kanälen.",
+          "Daten, die gesammelt, aber nicht ausgewertet werden."
+        ],
+        "doesNotPromise": "Dieser Service verspricht keine bestimmten Umsatz- oder Wachstumsprozentzahlen. Er schafft die Struktur, mit der Marketing überhaupt messbar wird.",
+        "faq": [
+          {
+            "question": "Übernehmen Sie auch die Umsetzung der Werbekampagnen?",
+            "answer": "Die laufende Kampagnenumsetzung gehört nicht automatisch dazu – ich baue die Struktur, die Sie oder Ihr Team damit befüllen."
+          },
+          {
+            "question": "Brauche ich schon Kanäle wie Social Media oder Google Ads?",
+            "answer": "Nein. Wir legen zuerst die Strategie fest und wählen dann die passenden Kanäle."
+          },
+          {
+            "question": "Wie wird Erfolg gemessen?",
+            "answer": "Über die Reporting-Struktur, die wir gemeinsam festlegen – abgestimmt auf Ihre tatsächlichen Ziele."
+          }
+        ]
       },
       "aiAutomation": {
         "definition": "Die gezielte Automatisierung wiederkehrender manueller Aufgaben mit KI-Werkzeugen und klar dokumentierten Workflows.",
@@ -138,7 +193,34 @@
         "deliverables": ["Prozessanalyse", "Priorisierte Automatisierungsliste", "Workflow-Dokumentation", "Eingerichtete KI-Assistenten", "Team-Anleitung"],
         "result": "Weniger repetitive manuelle Arbeit und klarere Arbeitsabläufe.",
         "formatsHeading": "Passende Projektformate",
-        "formats": "Einzelne Automatisierung oder laufende Betreuung mehrerer Workflows."
+        "formats": "Einzelne Automatisierung oder laufende Betreuung mehrerer Workflows.",
+        "usefulWhen": [
+          "Ihr Team erledigt dieselbe Aufgabe jede Woche manuell.",
+          "Daten werden zwischen Tools von Hand übertragen.",
+          "Sie haben von KI gehört, wissen aber nicht, wo sie wirklich helfen würde.",
+          "Fehler entstehen durch wiederholte manuelle Schritte."
+        ],
+        "problems": [
+          "Zeitaufwändige Routineaufgaben ohne Automatisierung.",
+          "Medienbrüche zwischen verschiedenen Tools.",
+          "Fehlende Dokumentation bestehender Abläufe.",
+          "Unsicherheit, welche KI-Werkzeuge tatsächlich passen."
+        ],
+        "doesNotPromise": "Dieser Service verspricht keine vollständige Automatisierung aller Prozesse und keine bestimmten Kosteneinsparungen. Automatisiert wird gezielt dort, wo es echten Mehrwert schafft.",
+        "faq": [
+          {
+            "question": "Ersetzt das Mitarbeiter?",
+            "answer": "Nein. Automatisiert werden repetitive Aufgaben – die Verantwortung und Entscheidungen bleiben bei Menschen."
+          },
+          {
+            "question": "Mit welchen KI-Werkzeugen arbeiten Sie?",
+            "answer": "Die Auswahl richtet sich nach Ihrem tatsächlichen Bedarf und den bereits vorhandenen Systemen."
+          },
+          {
+            "question": "Was, wenn eine Automatisierung nicht wie gewünscht funktioniert?",
+            "answer": "Jede Automatisierung wird dokumentiert und getestet, bevor sie in den laufenden Betrieb übergeht."
+          }
+        ]
       },
       "projectManagementOperations": {
         "definition": "Die Struktur, mit der Projekte geplant, koordiniert und bis zum Abschluss sichtbar gesteuert werden.",
@@ -161,7 +243,34 @@
         "deliverables": ["Projektstrukturplan", "Verantwortlichkeitsmatrix", "Meilenstein-Plan", "Risikoliste", "Kommunikationsrhythmus"],
         "result": "Projekte werden sichtbar, koordiniert und steuerbar.",
         "formatsHeading": "Passende Projektformate",
-        "formats": "Begleitung eines einzelnen Projekts oder laufende Projektsteuerung."
+        "formats": "Begleitung eines einzelnen Projekts oder laufende Projektsteuerung.",
+        "usefulWhen": [
+          "Mehrere Projekte laufen gleichzeitig ohne gemeinsamen Überblick.",
+          "Fristen verschieben sich, ohne dass jemand frühzeitig reagiert.",
+          "Die Kommunikation zwischen Team und Stakeholdern ist unklar.",
+          "Ein neues größeres Projekt beginnt und braucht von Anfang an Struktur."
+        ],
+        "problems": [
+          "Unklare Verantwortlichkeiten innerhalb eines Projekts.",
+          "Risiken, die zu spät erkannt werden.",
+          "Fehlender Kommunikationsrhythmus im Team.",
+          "Fortschritt, den niemand sichtbar dokumentiert."
+        ],
+        "doesNotPromise": "Dieser Service übernimmt nicht die inhaltliche Umsetzung der Projektaufgaben selbst und garantiert keine fixen Fertigstellungstermine unabhängig vom Projektumfang.",
+        "faq": [
+          {
+            "question": "Übernehmen Sie auch die fachliche Umsetzung, z. B. Design oder Entwicklung?",
+            "answer": "Nein, das gehört nicht automatisch dazu – ich koordiniere und strukturiere, die fachliche Arbeit bleibt bei den zuständigen Personen oder Teams."
+          },
+          {
+            "question": "Eignet sich das auch für ein einzelnes, kleineres Projekt?",
+            "answer": "Ja, der Umfang wird an die Projektgröße angepasst."
+          },
+          {
+            "question": "Wie oft gibt es Updates zum Projektstatus?",
+            "answer": "Das legen wir gemeinsam als festen Kommunikationsrhythmus fest."
+          }
+        ]
       },
       "premiumWebsitesDigitalExperience": {
         "definition": "Die Entwicklung einer mehrsprachigen, barrierefreien Website, die Expertise sichtbar macht und Besucher zu einer Entscheidung führt.",
@@ -191,8 +300,51 @@
         "deliverables": ["Content- und IA-Struktur", "Design-System", "Funktionierende mehrsprachige Website", "SEO/GEO-Grundlage", "Testprotokoll"],
         "result": "Eine Website, die Expertise sichtbar macht, Vertrauen aufbaut und Besucher zur Kontaktaufnahme oder zum Kauf bewegt.",
         "formatsHeading": "Passende Projektformate",
-        "formats": "Einzelprojekt oder in Kombination mit Marketing-Systemen."
+        "formats": "Einzelprojekt oder in Kombination mit Marketing-Systemen.",
+        "layers": ["Typografie", "Bild", "Layout", "Bewegung"],
+        "usefulWhen": [
+          "Ihre Website erklärt nicht, warum man mit Ihnen statt mit jemand anderem arbeiten sollte.",
+          "Sie brauchen eine mehrsprachige Website für mehrere Märkte.",
+          "Die aktuelle Website wirkt technisch oder gestalterisch veraltet.",
+          "Sie starten ein neues Angebot und brauchen eine eigenständige digitale Präsenz."
+        ],
+        "problems": [
+          "Fehlende klare Positionierung auf der Website.",
+          "Keine mehrsprachige Struktur, obwohl mehrere Sprachen gebraucht werden.",
+          "Schwache Zugänglichkeit für Menschen mit Einschränkungen.",
+          "Eine Website, die weder bei Google noch bei KI-gestützten Suchwerkzeugen gut auffindbar ist."
+        ],
+        "doesNotPromise": "Dieser Service verspricht keine bestimmte Anzahl an Besuchern, Anfragen oder Verkäufen. Er liefert eine Website, die Expertise sichtbar macht und Entscheidungen unterstützt.",
+        "faq": [
+          {
+            "question": "Schreiben Sie auch die Texte für die Website?",
+            "answer": "Die Content- und Informationsarchitektur ist Teil des Service. Grundtexte können gemeinsam erarbeitet werden."
+          },
+          {
+            "question": "Wird KI bei der Entwicklung eingesetzt?",
+            "answer": "KI-gestützte Entwicklung ist Teil des Arbeitsprozesses. Strategie, Qualität und die endgültige Umsetzung verantworte ich persönlich."
+          },
+          {
+            "question": "Welche Technologie wird verwendet?",
+            "answer": "Je nach Projekt unter anderem Next.js, React, Motion und punktuell Three.js – die Technologie ist Mittel zum Zweck, nicht der Kern des Ergebnisses."
+          }
+        ],
+        "expertise": {
+          "heading": "Eine Website ist auch ein Nachweis von Expertise.",
+          "intro": "Ihre Website zeigt nicht nur, was Sie anbieten – sie zeigt auch, wie Sie arbeiten. Deshalb verbindet die Entwicklung mehrere Ebenen:",
+          "list": ["Geschäftsverständnis", "Strategie", "Content-Architektur", "UX", "Visuelle Gestaltung", "Animation", "Technologie", "SEO/GEO", "Barrierefreiheit", "Launch"],
+          "techNote": "Je nach Projekt kommen dabei unter anderem Next.js, React, Motion und punktuell Three.js zum Einsatz – als Umsetzungsmittel, nicht als eigentlicher Wert des Ergebnisses.",
+          "aiNote": "KI-gestützte Entwicklung ist Teil des Arbeitsprozesses. Verantwortung für Strategie, Qualität und die endgültige Umsetzung liegt bei Inna."
+        }
       }
+    },
+    "template": {
+      "usefulWhenHeading": "Dieser Service ist sinnvoll, wenn …",
+      "problemsHeading": "Diese Probleme werden adressiert",
+      "processHeading": "Arbeitsprozess",
+      "doesNotPromiseHeading": "Was dieser Service nicht verspricht",
+      "relatedHeading": "Verwandte Leistungen",
+      "faqHeading": "Häufige Fragen"
     },
     "combine": {
       "eyebrow": "Kombinationen",

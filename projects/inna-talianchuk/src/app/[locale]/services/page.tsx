@@ -6,22 +6,15 @@ import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { MotionReveal } from "@/components/motion/MotionReveal";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { ServiceNav, SERVICE_KEYS, ANCHOR_IDS } from "@/components/services/ServiceNav";
+import { ServiceNav } from "@/components/services/ServiceNav";
 import { ServiceDetailSection } from "@/components/services/ServiceDetailSection";
 import { ServicesConnector } from "@/components/services/ServicesConnector";
 import { ServiceCombinations } from "@/components/services/ServiceCombinations";
 import { ServicesFaq } from "@/components/services/ServicesFaq";
 import { ServicesFinalCta } from "@/components/services/ServicesFinalCta";
+import { SERVICE_KEYS, SERVICE_SLUGS } from "@/lib/services";
 
 type Params = { locale: string };
-
-const SERVICE_SLUGS: Record<(typeof SERVICE_KEYS)[number], string> = {
-  businessSystemsDesign: "business-systems-design",
-  marketingSystems: "marketing-systems",
-  aiAutomation: "ai-automation",
-  projectManagementOperations: "project-management-operations",
-  premiumWebsitesDigitalExperience: "premium-websites-digital-experience",
-};
 
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { locale } = await params;
@@ -91,7 +84,7 @@ export default async function ServicesPage({ params }: { params: Promise<Params>
             key={key}
             serviceKey={key}
             slug={SERVICE_SLUGS[key]}
-            anchorId={ANCHOR_IDS[key]}
+            anchorId={SERVICE_SLUGS[key]}
             index={index}
             alt={index % 2 === 1}
           />
