@@ -15,7 +15,8 @@
   --color-ink: #0f1311;
   --color-ink-elevated: #171c19;
   --color-champagne: #c2a15f;
-  --color-champagne-deep: #8a6f3c;
+  /* Darkened for 4.5:1+ against ivory/porcelain — #8a6f3c only cleared ~4.3:1 */
+  --color-champagne-deep: #7c6436;
   --color-champagne-soft: rgba(194, 161, 95, 0.35);
   --shadow-soft: 0 20px 60px rgba(30, 36, 34, 0.06);
   --shadow-soft-dark: 0 20px 60px rgba(0, 0, 0, 0.28);
