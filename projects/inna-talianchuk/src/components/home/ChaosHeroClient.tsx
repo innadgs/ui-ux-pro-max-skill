@@ -10,11 +10,11 @@ import {
   useMotionValueEvent,
   type MotionValue,
 } from "motion/react";
-import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/ui/Container";
+import { PrimaryButton, SecondaryButton } from "@/components/ui/Button";
 
-const ThreadScene = dynamic(
-  () => import("./ThreadScene").then((mod) => mod.ThreadScene),
+const ClarityScene = dynamic(
+  () => import("./ClarityScene").then((mod) => mod.ClarityScene),
   { ssr: false },
 );
 
@@ -52,14 +52,14 @@ function LatticeFallback() {
   return (
     <div
       aria-hidden="true"
-      className="absolute inset-0 opacity-25"
+      className="absolute inset-0 opacity-40"
       style={{
         backgroundImage:
-          "repeating-linear-gradient(90deg, rgba(245,241,232,0.35) 0 1px, transparent 1px 72px), repeating-linear-gradient(0deg, rgba(194,161,95,0.22) 0 1px, transparent 1px 128px)",
+          "repeating-linear-gradient(90deg, rgba(42,48,44,0.22) 0 1px, transparent 1px 72px), repeating-linear-gradient(0deg, rgba(168,130,63,0.20) 0 1px, transparent 1px 128px)",
         maskImage:
-          "radial-gradient(ellipse 80% 65% at 50% 45%, black 30%, transparent 78%)",
+          "radial-gradient(ellipse 75% 65% at 62% 45%, black 25%, transparent 76%)",
         WebkitMaskImage:
-          "radial-gradient(ellipse 80% 65% at 50% 45%, black 30%, transparent 78%)",
+          "radial-gradient(ellipse 75% 65% at 62% 45%, black 25%, transparent 76%)",
       }}
     />
   );
@@ -92,14 +92,14 @@ function Chapter({
       <motion.div style={{ opacity, y }}>
         <p
           aria-hidden="true"
-          className="font-serif text-xl text-champagne tracking-[0.08em]"
+          className="font-serif text-xl text-champagne-deep tracking-[0.08em]"
         >
           {String(index + 1).padStart(2, "0")}
         </p>
-        <h2 className="mt-3 font-serif text-4xl md:text-6xl leading-tight text-background">
+        <h2 className="mt-3 font-serif text-4xl md:text-6xl leading-tight text-text">
           {chapter.title}
         </h2>
-        <p className="mt-5 max-w-xl text-base md:text-lg leading-relaxed text-background/70">
+        <p className="mt-5 max-w-xl text-base md:text-lg leading-relaxed text-text-secondary">
           {chapter.text}
         </p>
       </motion.div>
@@ -107,27 +107,27 @@ function Chapter({
   );
 }
 
-/**
- * The chaos-to-clarity opening act: a tall pinned canvas where luminous
- * threads weave from disorder into architecture while five numbered
- * chapters pass by. The screen itself performs the brand promise — it
- * opens in deep ink and resolves into the site's light ivory.
- *
- * Reduced motion: the pinned choreography is skipped entirely; the same
- * content renders as a static dark hero followed by a plain chapter list.
- */
 function fadeOut(v: number, from: number, to: number) {
   if (v <= from) return 1;
   if (v >= to) return 0;
   return 1 - (v - from) / (to - from);
 }
 
+/**
+ * The chaos-to-clarity opening act in its premium light form, composed
+ * after the approved video reference: debris drifting on the left, an
+ * ordered lattice with warm glowing nodes on the right, and dominant
+ * typography in front. Scroll builds the structure and pulls the
+ * disorder into it while five numbered chapters pass by.
+ *
+ * Reduced motion: the pinned choreography is skipped entirely; the same
+ * content renders as a static hero followed by a plain chapter list.
+ */
 export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
   const outerRef = useRef<HTMLElement>(null);
   const progressRef = useRef(0);
   const sceneRef = useRef<HTMLDivElement>(null);
   const hintRef = useRef<HTMLDivElement>(null);
-  const ivoryRef = useRef<HTMLDivElement>(null);
   const reducedMotion = useReducedMotion();
   const canRender3d = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
@@ -141,16 +141,12 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
   useMotionValueEvent(scrollYProgress, "change", (value) => {
     progressRef.current = value;
     if (sceneRef.current) {
-      const rise = value < 0.04 ? 0.65 + (value / 0.04) * 0.35 : 1;
       sceneRef.current.style.opacity = String(
-        value > 0.9 ? 1 - ((value - 0.9) / 0.1) * 0.65 : rise,
+        value < 0.04 ? 0.7 + (value / 0.04) * 0.3 : 1,
       );
     }
     if (hintRef.current) {
       hintRef.current.style.opacity = String(fadeOut(value, 0.02, 0.09));
-    }
-    if (ivoryRef.current) {
-      ivoryRef.current.style.opacity = String(1 - fadeOut(value, 0.92, 1));
     }
   });
 
@@ -164,38 +160,35 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
 
   if (reducedMotion) {
     return (
-      <section
-        aria-labelledby="hero-heading"
-        data-header-dark
-        className="bg-ink text-background"
-      >
-        <Container className="flex min-h-[80vh] flex-col justify-center py-24">
-          <p className="text-xs md:text-sm tracking-[0.2em] uppercase text-champagne">
+      <section aria-labelledby="hero-heading" className="bg-background text-text">
+        <Container className="flex min-h-[80vh] flex-col items-center justify-center py-24 text-center">
+          <p className="text-xs md:text-sm tracking-[0.2em] uppercase text-champagne-deep">
             {content.tagline}
           </p>
           <h1
             id="hero-heading"
-            className="mt-6 max-w-3xl font-serif text-5xl md:text-7xl leading-[1.03]"
+            className="mt-6 max-w-4xl font-serif text-5xl md:text-8xl leading-[1.02]"
           >
             {content.headline}
           </h1>
-          <p className="mt-8 max-w-xl text-base md:text-lg leading-relaxed text-background/70">
+          <p className="mt-8 max-w-xl text-base md:text-lg leading-relaxed text-text-secondary">
             {content.supporting}
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <HeroButtons content={content} />
+            <PrimaryButton href="/contact">{content.primaryCta}</PrimaryButton>
+            <SecondaryButton href="/services">{content.secondaryCta}</SecondaryButton>
           </div>
-          <p className="mt-10 text-sm text-background/50">{content.microText}</p>
+          <p className="mt-10 text-sm text-text-secondary/80">{content.microText}</p>
         </Container>
         <Container className="pb-24">
           <ol className="space-y-14">
             {content.chapters.map((chapter, index) => (
               <li key={chapter.title}>
-                <p aria-hidden="true" className="font-serif text-lg text-champagne">
+                <p aria-hidden="true" className="font-serif text-lg text-champagne-deep">
                   {String(index + 1).padStart(2, "0")}
                 </p>
                 <h2 className="mt-2 font-serif text-3xl md:text-4xl">{chapter.title}</h2>
-                <p className="mt-3 max-w-xl leading-relaxed text-background/70">
+                <p className="mt-3 max-w-xl leading-relaxed text-text-secondary">
                   {chapter.text}
                 </p>
               </li>
@@ -210,25 +203,24 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
     <section
       ref={outerRef}
       aria-labelledby="hero-heading"
-      data-header-dark
-      className="relative bg-ink"
+      className="relative bg-background"
       style={{ height: "520vh" }}
     >
       <div className="sticky top-0 h-screen overflow-hidden">
-        {/* Ambient depth: a faint warm glow low in the frame */}
+        {/* Porcelain air: soft warm light from above, faint gold from the right */}
         <div
           aria-hidden="true"
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 90% 60% at 50% 78%, rgba(194,161,95,0.10), transparent 65%), radial-gradient(ellipse 70% 50% at 50% 20%, rgba(245,241,232,0.05), transparent 70%)",
+              "radial-gradient(ellipse 85% 60% at 30% 15%, rgba(255,255,255,0.75), transparent 60%), radial-gradient(ellipse 70% 65% at 78% 55%, rgba(194,161,95,0.14), transparent 68%), linear-gradient(180deg, #f7f4ec 0%, #f5f1e8 55%, #efe9dc 100%)",
           }}
         />
 
         {canRender3d ? (
-          <div ref={sceneRef} className="absolute inset-0" style={{ opacity: 0.65 }}>
+          <div ref={sceneRef} className="absolute inset-0" style={{ opacity: 0.7 }}>
             <Suspense fallback={null}>
-              <ThreadScene progress={progressRef} reducedMotion={false} />
+              <ClarityScene progress={progressRef} reducedMotion={false} />
             </Suspense>
           </div>
         ) : (
@@ -236,16 +228,16 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
         )}
 
         <Container className="relative z-10 h-full">
-          {/* Act 0 — the entrance statement */}
+          {/* Act 0 — the entrance statement, dominant like the reference */}
           <motion.div
             style={{ opacity: introOpacity, y: introY, visibility: introVisibility }}
-            className="flex h-full flex-col justify-center"
+            className="flex h-full flex-col items-center justify-center text-center"
           >
             <motion.p
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="text-xs md:text-sm tracking-[0.2em] uppercase text-champagne"
+              className="text-xs md:text-sm tracking-[0.2em] uppercase text-champagne-deep"
             >
               {content.tagline}
             </motion.p>
@@ -254,7 +246,7 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
               initial={{ opacity: 0, y: 26 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-              className="mt-6 max-w-3xl font-serif text-5xl md:text-7xl leading-[1.03] text-background"
+              className="mt-6 max-w-4xl font-serif text-5xl md:text-8xl leading-[1.02] text-text"
             >
               {content.headline}
             </motion.h1>
@@ -262,7 +254,7 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
               initial={{ opacity: 0, y: 22 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.16, ease: [0.16, 1, 0.3, 1] }}
-              className="mt-8 max-w-xl text-base md:text-lg leading-relaxed text-background/70"
+              className="mt-8 max-w-xl text-base md:text-lg leading-relaxed text-text-secondary"
             >
               {content.supporting}
             </motion.p>
@@ -272,19 +264,20 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
               transition={{ duration: 0.8, delay: 0.24, ease: [0.16, 1, 0.3, 1] }}
               className="mt-10 flex flex-col gap-4 sm:flex-row"
             >
-              <HeroButtons content={content} />
+              <PrimaryButton href="/contact">{content.primaryCta}</PrimaryButton>
+              <SecondaryButton href="/services">{content.secondaryCta}</SecondaryButton>
             </motion.div>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.34 }}
-              className="mt-10 text-sm text-background/50"
+              className="mt-10 text-sm text-text-secondary/80"
             >
               {content.microText}
             </motion.p>
           </motion.div>
 
-          {/* Chapters 01–05 — pinned narrative */}
+          {/* Chapters 01–05 — pinned narrative, set left of the lattice */}
           <ol aria-label={content.tagline} className="pointer-events-none">
             {content.chapters.map((chapter, index) => (
               <Chapter
@@ -303,48 +296,19 @@ export function ChaosHeroClient({ content }: { content: ChaosHeroContent }) {
             aria-hidden="true"
             className="absolute bottom-8 left-1/2 -translate-x-1/2 text-center"
           >
-            <p className="text-xs tracking-[0.25em] uppercase text-background/50">
+            <p className="text-xs tracking-[0.25em] uppercase text-text-secondary/70">
               {content.scrollHint}
             </p>
             <motion.span
               animate={{ y: [0, 8, 0] }}
               transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-              className="mt-3 block text-champagne"
+              className="mt-3 block text-champagne-deep"
             >
               ↓
             </motion.span>
           </div>
         </Container>
-
-        {/* The resolution: ink dissolves into the site's ivory */}
-        <div
-          ref={ivoryRef}
-          aria-hidden="true"
-          style={{ opacity: 0 }}
-          className="pointer-events-none absolute inset-0 bg-background"
-        />
       </div>
     </section>
-  );
-}
-
-function HeroButtons({ content }: { content: ChaosHeroContent }) {
-  const base =
-    "inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm md:text-base font-medium font-sans transition-colors duration-200 min-h-11";
-  return (
-    <>
-      <Link
-        href="/contact"
-        className={`${base} bg-background text-ink hover:bg-champagne hover:text-ink`}
-      >
-        {content.primaryCta}
-      </Link>
-      <Link
-        href="/services"
-        className={`${base} border border-background/30 text-background hover:border-champagne hover:text-champagne`}
-      >
-        {content.secondaryCta}
-      </Link>
-    </>
   );
 }
